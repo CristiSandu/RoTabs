@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Padding="10,0,0,0"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="TabulaturiRO.ArtistsList">
+    <StackLayout>
+        <SearchBar x:Name="searchBarArtists" Placeholder="Search..." TextChanged="searchBarArtists_TextChanged"  />
+        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label x:Name="artist_Name" Text="{Binding Name}" VerticalOptions="Center" FontSize="Large"/>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
