@@ -50,7 +50,7 @@ namespace TabulaturiRO
             if (String.IsNullOrWhiteSpace(newTextValue))
                 return artists;
 
-            return artists.Where(c => c.Name.StartsWith(newTextValue));
+            return artists.Where(c => c.Name.StartsWith(newTextValue,true,null));
         }
     }
 }
