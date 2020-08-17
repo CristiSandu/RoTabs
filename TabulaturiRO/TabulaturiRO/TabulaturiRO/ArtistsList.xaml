@@ -5,10 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              Padding="10,0,0,0"
-             NavigationPage.HasNavigationBar="False"
+             
              x:Class="TabulaturiRO.ArtistsList">
-    <StackLayout>
+    <NavigationPage.TitleView>
         <SearchBar x:Name="searchBarArtists" Placeholder="Search..." TextChanged="searchBarArtists_TextChanged"  />
+
+    </NavigationPage.TitleView>
+    
+    <StackLayout>
         <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>

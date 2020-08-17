@@ -29,10 +29,8 @@ namespace TabulaturiRO
         {
             if (e.SelectedItem != null)
             {
-               await Navigation.PushAsync(new songList
-                {
-                    BindingContext = e.SelectedItem as Artists
-                });
+                var art = e.SelectedItem as Artists;
+                await Navigation.PushAsync(new songList(art));
             }
         }
 

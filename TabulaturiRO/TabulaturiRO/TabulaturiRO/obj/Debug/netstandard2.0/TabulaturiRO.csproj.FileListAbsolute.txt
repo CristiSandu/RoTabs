@@ -15,4 +15,5 @@ S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\D
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\AddPage.xaml.g.cs
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\ArtistsList.xaml.g.cs
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\songList.xaml.g.cs
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\TrackPage.xaml.g.cs
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\TabulaturiRO.csprojAssemblyReference.cache

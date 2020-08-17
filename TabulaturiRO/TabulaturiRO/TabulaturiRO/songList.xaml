@@ -5,7 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TabulaturiRO.songList">
-    <StackLayout >
-        <WebView x:Name="firstPage2" WidthRequest="1000" HeightRequest="1000" Source="{Binding Link}" />
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <SearchBar x:Name="searchBarTracks" Placeholder="Search..." TextChanged="searchBarTracks_TextChanged" IsVisible="true"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout>
+        <Label x:Name="noSongLabel" Text="No song added to this artist" IsVisible="false" HorizontalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold"/>
+        <Button x:Name="backButton" Text="Back" IsVisible="False" Clicked="backButton_Clicked" HorizontalOptions="Center"/>
+        <ListView x:Name="tracksListView" ItemSelected="tracksListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label x:Name="task_Name" Text="{Binding Title}" VerticalOptions="Center" FontSize="Large"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>

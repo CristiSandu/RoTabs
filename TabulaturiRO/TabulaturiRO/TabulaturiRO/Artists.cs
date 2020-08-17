@@ -7,14 +7,33 @@ using System.Threading.Tasks;
 namespace TabulaturiRO
 {
    [Table ("Artists")]
-   public class Artists
+    public class Artists
     {
-        [PrimaryKey, Column("Name")] 
+        [PrimaryKey, Column("id")] 
+        public int Id { get; set; }
+
+        [MaxLength(250), Unique, Column("name")]
         public string Name { get; set; }
 
-        [MaxLength(250), Unique, Column("Link")]
+        [MaxLength(250), Unique, Column("link_artist")]
         public string Link { get; set; }
 
+    }
+
+    [Table ("Track")]
+    public class Track
+    {
+        [PrimaryKey, Column("id")]
+        public int Id { get; set; }
+
+        [MaxLength(250), Unique, Column("title")]
+        public string Title { get; set; }
+
+        [PrimaryKey, Column("artist_id")]
+        public int Artist_Id { get; set; }
+
+        [MaxLength(250), Unique, Column("link_track")]
+        public string Link_Track { get; set; }
     }
 
     public class EditArtistDb
@@ -43,5 +62,7 @@ namespace TabulaturiRO
             conn.Close();
             return tasks;
         }
+
+
     }
 }
