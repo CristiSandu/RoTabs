@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TabulaturiRO.StartPage">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout>
+        <ListView IsVisible="false" x:Name="allListView" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="65">
+                        <StackLayout>
+                            <Label x:Name="artistsLabel" Text="{Binding Name}" />
+                            <Label x:Name="tracksLabel" Text="{Binding Title}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout>
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                    <Button Text="1"/>
+                </StackLayout>
+            </ScrollView>
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                        <Button Text="1"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

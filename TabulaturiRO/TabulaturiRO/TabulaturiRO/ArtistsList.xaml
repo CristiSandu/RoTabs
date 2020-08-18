@@ -13,10 +13,10 @@
     </NavigationPage.TitleView>
     
     <StackLayout>
-        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected">
+        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
+                    <ViewCell Height="65">
                         <Label x:Name="artist_Name" Text="{Binding Name}" VerticalOptions="Center" FontSize="Large"/>
 
                     </ViewCell>

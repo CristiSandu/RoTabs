@@ -14,7 +14,8 @@ namespace TabulaturiRO
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class songList : ContentPage
     {
-        int id_art = 0; 
+        int id_art = 0;
+        List<Track> _tracks = new List<Track>();
         public songList()
         {
             InitializeComponent();
@@ -34,23 +35,34 @@ namespace TabulaturiRO
             SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocation);
             conn.CreateTable<Track>();
             var tracks = conn.Table<Track>();
-            List<Track> _tracks = new List<Track>();
-            foreach (var item in tracks)
+            List<Track> _tracks_orderd;
+            if (id_art == 0)
             {
-                if (item.Artist_Id == id_art)
-                {
-                    _tracks.Add(item);
-                }
-            }
-
-            if (_tracks.Count() == 0) 
-            { 
-                noSongLabel.IsVisible = true;
-                backButton.IsVisible = true;
+                _tracks = tracks.ToList();
+                _tracks_orderd = _tracks.OrderBy(o=>o.Title).ToList(); 
+                tracksListView.ItemsSource = _tracks_orderd;
+                _tracks = _tracks_orderd;
             }
             else
-                tracksListView.ItemsSource = _tracks;
+            {
+                foreach (var item in tracks)
+                {
+                    if (item.Artist_Id == id_art)
+                    {
+                        _tracks.Add(item);
+                    }
+                }
+
+                if (_tracks.Count() == 0)
+                {
+                    noSongLabel.IsVisible = true;
+                    backButton.IsVisible = true;
+                }
+                else
+                    tracksListView.ItemsSource = _tracks;
+            }
             searchBarTracks.IsVisible = true;
+            searchBarTracks.Text = "";
             conn.Close();
         }
 
@@ -62,18 +74,7 @@ namespace TabulaturiRO
         private IEnumerable GetTracks(string newTextValue)
         {
 
-            SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocation);
-            conn.CreateTable<Track>();
-            var tracks = conn.Table<Track>();
-            List<Track> _tracks = new List<Track>();
-            foreach (var item in tracks)
-            {
-                if (item.Artist_Id == id_art)
-                {
-                    _tracks.Add(item);
-                }
-            }
-            conn.Close(); 
+          
             if (String.IsNullOrWhiteSpace(newTextValue))
                 return _tracks;
             return _tracks.Where(c => c.Title.StartsWith(newTextValue, true, null));
@@ -87,6 +88,7 @@ namespace TabulaturiRO
                     BindingContext = e.SelectedItem as Track
                 });
             }
+            tracksListView.SelectedItem = null;
         }
 
         private async void backButton_Clicked(object sender, EventArgs e)

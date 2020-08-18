@@ -23,6 +23,7 @@ namespace TabulaturiRO
         {
             base.OnAppearing();
             artistListView.ItemsSource = editeartist.createList();
+            searchBarArtists.Text = "";
         }
 
         private async void artistListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -32,6 +33,7 @@ namespace TabulaturiRO
                 var art = e.SelectedItem as Artists;
                 await Navigation.PushAsync(new songList(art));
             }
+            artistListView.SelectedItem = null;
         }
 
 

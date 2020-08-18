@@ -19,7 +19,7 @@ namespace TabulaturiRO
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage (new  MainPage());
+            MainPage = new MainPage();
             DataBaseLocation = dbName;
         }
 

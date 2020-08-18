@@ -4,6 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Padding="10,0,0,0"
+             NavigationPage.HasBackButton="False"
              x:Class="TabulaturiRO.songList">
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
@@ -14,10 +16,10 @@
     <StackLayout>
         <Label x:Name="noSongLabel" Text="No song added to this artist" IsVisible="false" HorizontalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold"/>
         <Button x:Name="backButton" Text="Back" IsVisible="False" Clicked="backButton_Clicked" HorizontalOptions="Center"/>
-        <ListView x:Name="tracksListView" ItemSelected="tracksListView_ItemSelected">
+        <ListView x:Name="tracksListView" ItemSelected="tracksListView_ItemSelected" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
+                    <ViewCell Height="65">
                         <Label x:Name="task_Name" Text="{Binding Title}" VerticalOptions="Center" FontSize="Large"/>
                     </ViewCell>
                 </DataTemplate>

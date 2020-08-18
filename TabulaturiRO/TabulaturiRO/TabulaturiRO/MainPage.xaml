@@ -1,22 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:windows="clr-namespace:Xamarin.Forms.PlatformConfiguration.WindowsSpecific;assembly=Xamarin.Forms.Core"
+             windows:TabbedPage.HeaderIconsEnabled="true"
+             xmlns:local="clr-namespace:TabulaturiRO"
+             android:TabbedPage.ToolbarPlacement="Bottom"
              mc:Ignorable="d"
              x:Class="TabulaturiRO.MainPage">
 
-    <StackLayout>
-        <StackLayout Orientation="Horizontal" Padding="0,0,0,0">
-            <Button x:Name="backButton" Text="&lt;" HeightRequest="40" WidthRequest="40" Clicked="backButton_Clicked"/>
-            <Button x:Name="nextPageButton" Text="&gt;" HeightRequest="40" WidthRequest="40" Clicked="nextPageButton_Clicked"/>
-            <Button x:Name="addPages" Text="+" Clicked="addPages_Clicked"/>
-            <Button x:Name="deleteAll" Text="Del" Clicked="deleteAll_Clicked"/>
-        </StackLayout>
-        <Label x:Name ="urlHolder" Text="{Binding Name}" IsVisible="False"/>
-        <WebView x:Name="firstPage" WidthRequest="1000" HeightRequest="1000" Navigating="firstPage_Navigating" Navigated="firstPage_Navigated"/>
-        <Button x:Name="saveOffline" Text="Save Offline"  Clicked="saveOffline_Clicked"/>
-    </StackLayout>
+    <NavigationPage Title="StartPage" Icon="imgTEST3.png">
+        <x:Arguments>
+            <local:StartPage Title="StartPage" />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Artists" Icon="imgTEST3.png">
+        <x:Arguments>
+            <local:ArtistsList Title="Artists" />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="AllSongs" Icon="imgTEST3.png">
+        <x:Arguments>
+            <local:songList Title="AllSongs" />
+        </x:Arguments>
+    </NavigationPage>
 
 
-</ContentPage>
+
+</TabbedPage>
+
