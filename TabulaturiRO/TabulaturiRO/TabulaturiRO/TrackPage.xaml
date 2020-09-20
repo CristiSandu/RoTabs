@@ -4,11 +4,36 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              x:Class="TabulaturiRO.TrackPage">
 
-    <StackLayout>
-        
-        <WebView x:Name="trackPage" WidthRequest="1000" HeightRequest="1000" Source="{Binding Link_Track}" />
+    <NavigationPage.TitleView>
+        <Button x:Name="addToOfflineList1" Text="Add To Offline" Clicked="addToOfflineList_Clicked"/>
+
+    </NavigationPage.TitleView>
+
+
+    <StackLayout Spacing="0">
+        <WebView x:Name="trackPage" 
+                 WidthRequest="1000" 
+                 HeightRequest="1000" 
+                 Source="{Binding Link_Track}" 
+                 android:WebView.EnableZoomControls="true"
+                 android:WebView.DisplayZoomControls="False"
+                 />
+        <ScrollView>
+            <StackLayout Orientation="Horizontal" BackgroundColor="White" HeightRequest="48">
+                <Button x:Name="addToOfflineList" BackgroundColor="White" 
+                        Clicked="addToOfflineList_Clicked" 
+                        ImageSource="offline.png" 
+                        HorizontalOptions="StartAndExpand" 
+                        VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
     </StackLayout>
+
+
+
 
 </ContentPage>

@@ -27,6 +27,10 @@ namespace TabulaturiRO.Droid
             string folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             string dbPath = Path.Combine(folderPath, dbName);
 
+            string dbName1 = "offlineSong.sqlite";
+            string folderPath1 = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string dbPath1 = Path.Combine(folderPath, dbName1);
+
             if (!File.Exists(dbPath))
             {
                 using (var br = new BinaryReader(Application.Context.Assets.Open("artistsdb1.sqlite")))
@@ -44,7 +48,7 @@ namespace TabulaturiRO.Droid
             }
 
 
-            LoadApplication(new App(dbPath));
+            LoadApplication(new App(dbPath,dbPath1));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

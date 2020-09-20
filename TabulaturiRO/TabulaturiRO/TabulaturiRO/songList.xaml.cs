@@ -14,7 +14,7 @@ namespace TabulaturiRO
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class songList : ContentPage
     {
-        int id_art = 0;
+        Artists _art;
         List<Track> _tracks = new List<Track>();
         public songList()
         {
@@ -25,7 +25,7 @@ namespace TabulaturiRO
         public songList(Artists art)
         {
             InitializeComponent();
-            id_art = art.Id;
+            _art = art;
             
         }
 
@@ -33,25 +33,20 @@ namespace TabulaturiRO
         {
             base.OnAppearing();
             SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocation);
-            conn.CreateTable<Track>();
+            //conn.CreateTable<Track>();
             var tracks = conn.Table<Track>();
-            List<Track> _tracks_orderd;
-            if (id_art == 0)
+
+            
+           
+
+            if (_art == null)
             {
                 _tracks = tracks.ToList();
-                _tracks_orderd = _tracks.OrderBy(o=>o.Title).ToList(); 
-                tracksListView.ItemsSource = _tracks_orderd;
-                _tracks = _tracks_orderd;
             }
             else
             {
-                foreach (var item in tracks)
-                {
-                    if (item.Artist_Id == id_art)
-                    {
-                        _tracks.Add(item);
-                    }
-                }
+                var stocksStartingWithA = conn.Query<Track>("SELECT * FROM Track WHERE artist_id = ?", _art.Id);
+                _tracks = stocksStartingWithA.ToList<Track>();
 
                 if (_tracks.Count() == 0)
                 {
@@ -61,6 +56,7 @@ namespace TabulaturiRO
                 else
                     tracksListView.ItemsSource = _tracks;
             }
+
             searchBarTracks.IsVisible = true;
             searchBarTracks.Text = "";
             conn.Close();
@@ -84,9 +80,8 @@ namespace TabulaturiRO
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new TrackPage{
-                    BindingContext = e.SelectedItem as Track
-                });
+                var track = e.SelectedItem as Track;
+                await Navigation.PushAsync(new TrackPage(track));
             }
             tracksListView.SelectedItem = null;
         }

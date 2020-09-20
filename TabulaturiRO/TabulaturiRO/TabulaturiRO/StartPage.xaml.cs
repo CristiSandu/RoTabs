@@ -52,7 +52,7 @@ namespace TabulaturiRO
         private IEnumerable GetTracks(string newTextValue)
         {
             SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocation);
-            conn.CreateTable<Track>();
+           conn.CreateTable<Track>();
             var tracks = conn.Table<Track>().ToList();
             if (String.IsNullOrWhiteSpace(newTextValue))
                 return null;
@@ -65,6 +65,11 @@ namespace TabulaturiRO
             if (String.IsNullOrWhiteSpace(newTextValue))
                 return null;
                 return art.Where(c => c.Name.StartsWith(newTextValue, true, null));
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OfflineSongs());
         }
     }
 }

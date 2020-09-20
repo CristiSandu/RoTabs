@@ -6,9 +6,12 @@
              mc:Ignorable="d"
              x:Class="TabulaturiRO.StartPage">
     <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal">
-            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true"/>
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Orientation="Horizontal">
+                <SearchBar x:Name="searchBarGlobaly" Placeholder="Search..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true" HorizontalOptions="Start"/>
+                <Image Source="test.png" HeightRequest="48" WidthRequest="48" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </ScrollView>
     </NavigationPage.TitleView>
 
     <StackLayout>
@@ -28,7 +31,7 @@
         <StackLayout>
             <ScrollView Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
-                    <Button Text="1"/>
+                    <Button Text="1" Clicked="Button_Clicked"/>
                     <Button Text="1"/>
                     <Button Text="1"/>
                     <Button Text="1"/>
@@ -111,5 +114,6 @@
             </ScrollView>
 
         </StackLayout>
+        <Image Source="test.png" HeightRequest="100" WidthRequest="100"/>
     </StackLayout>
 </ContentPage>

@@ -4,17 +4,20 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+              Padding="10,0,0,0"
              x:Class="TabulaturiRO.OfflineSongs">
-    <ListView x:Name="listOfflineSongs">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <StackLayout>
-                        <Label x:Name="indexSongInDB" Text = "{Binding Id}"/>
-                        <Label x:Name ="songName" Text="{Binding Name}" />
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    
+    
+    
+    <StackLayout>
+        <ListView x:Name="listOfflineSongs" ItemSelected="listOfflineSongs_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <ViewCell Height="65">
+                        <Label x:Name ="songName" Text="{Binding Name_Song}" VerticalOptions="Center" FontSize="Large"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

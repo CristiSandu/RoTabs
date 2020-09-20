@@ -12,27 +12,37 @@ namespace TabulaturiRO
     // Learn more about making custom code visible in the Xamarin.Forms previewer
     // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
-    public partial class MainPage : TabbedPage
+    public partial class MainPage : MasterDetailPage
     {
 
         EditArtistDb artistdb = new EditArtistDb();
         public MainPage()
         {
             InitializeComponent();
-           
+            masterPage.listView1.ItemSelected += OnItemSelected;
+
+            if (Device.RuntimePlatform == Device.UWP)
+            {
+                MasterBehavior = MasterBehavior.Popover;
+            }
 
         }
 
-        private async void saveOffline_Clicked(object sender, EventArgs e)
+        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
-            // HttpResponseMessage response = await client.GetAsync(firstPage.Source);
-            //firstPage.Source
-
-
+            var item = e.SelectedItem as MasterPageItem;
+            if (item != null)
+            {
+                if (item.TargetType != null)
+                {
+                    Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                    masterPage.listView1.SelectedItem = null;
+                    IsPresented = false;
+                }
+            }
         }
 
-       
+
     }
 }
 

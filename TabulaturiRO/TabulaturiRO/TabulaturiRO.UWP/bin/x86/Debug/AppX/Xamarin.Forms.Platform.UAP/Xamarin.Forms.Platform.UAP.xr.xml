@@ -71,13 +71,21 @@
     <RootPropertyPathName Name="Cell" />
     <RootPropertyPathName Name="RenderHeight" />
     <RootPropertyPathName Name="View" />
-    <RootPropertyPathName Name="Command" />
-    <RootPropertyPathName Name="CommandParameter" />
-    <RootPropertyPathName Name="Icon" />
-    <RootPropertyPathName Name="FlyoutIcon" />
     <RootPropertyPathName Name="Tag" />
     <RootPropertyPathName Name="ThumbImageSource" />
     <RootPropertyPathName Name="IconImageSource" />
+    <RootPropertyPathName Name="CompactPaneLength" />
+    <RootPropertyPathName Name="FlyoutBackgroundColor" />
+    <RootPropertyPathName Name="LeftPaneVisibility" />
+    <RootPropertyPathName Name="TopPadding" />
+    <RootPropertyPathName Name="TopPaneVisibility" />
+    <RootPropertyPathName Name="OverflowButtonVisibility" />
+    <RootPropertyPathName Name="ElementSoundMode" />
+    <RootPropertyPathName Name="PaneToggleButtonVisibility" />
+    <RootPropertyPathName Name="BackButtonVisibility" />
+    <RootPropertyPathName Name="Command" />
+    <RootPropertyPathName Name="CommandParameter" />
+    <RootPropertyPathName Name="IsSelected" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
@@ -153,7 +161,7 @@
       <RootProperty Name="IsVerticalScrollChainingEnabled" />
       <RootProperty Name="BringIntoViewOnFocusChange" />
       <RootProperty Name="Content" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="VerticalSnapPointsType" />
@@ -161,7 +169,6 @@
       <RootProperty Name="HorizontalSnapPointsAlignment" />
       <RootProperty Name="HorizontalSnapPointsType" />
       <RootProperty Name="Template" />
-      <RootProperty Name="VerticalContentAlignment" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
       <RootMethod Name="GetVerticalScrollBarVisibility" />
@@ -184,6 +191,7 @@
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
       <RootProperty Name="TargetType" />
@@ -210,6 +218,7 @@
       <RootProperty Name="MinHeight" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumnSpan" />
@@ -254,6 +263,7 @@
       <RootProperty Name="Template" />
       <RootProperty Name="UseSystemFocusVisuals" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Flyout" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
@@ -262,6 +272,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualState">
       <RootProperty Name="Storyboard" />
+      <RootProperty Name="Setters" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
       <RootProperty Name="Children" />
@@ -305,6 +316,7 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="Foreground" />
       <RootProperty Name="Content" />
       <RootProperty Name="ContentTransitions" />
       <RootProperty Name="ContentTemplate" />
@@ -312,7 +324,6 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
-      <RootProperty Name="Foreground" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Padding" />
@@ -320,6 +331,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontStyle" />
       <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Name" />
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="BorderBrush" />
@@ -329,7 +341,6 @@
       <RootProperty Name="FlowDirection" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetAccessibilityView" />
@@ -342,6 +353,8 @@
       <RootMethod Name="SetLabeledBy" />
       <RootMethod Name="GetAutomationId" />
       <RootMethod Name="SetAutomationId" />
+      <RootMethod Name="GetLandmarkType" />
+      <RootMethod Name="SetLandmarkType" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Foreground" />
@@ -378,9 +391,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
+      <RootProperty Name="MinWidth" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
+      <RootProperty Name="MinHeight" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -414,6 +429,10 @@
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Xamarin.Forms.Platform.UWP.ShellPageWrapper" />
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />
     </RootType>
@@ -452,6 +471,9 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="XYFocusKeyboardNavigation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
@@ -471,6 +493,9 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="UseSystemFocusVisuals" />
       <RootProperty Name="Clip" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="MinWidth" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPresenter">
       <RootProperty Name="Header" />
@@ -612,7 +637,6 @@
       <RootProperty Name="Source" />
       <RootProperty Name="DataContext" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="MaxHeight" />
       <RootProperty Name="Name" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
@@ -649,6 +673,13 @@
       <RootProperty Name="OpenedLength" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.CarouselPanel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">
+      <RootProperty Name="Title" />
+      <RootProperty Name="PrimaryButtonText" />
+      <RootProperty Name="SecondaryButtonText" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Xamarin.Forms.Platform.UWP.PromptDialog" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.CaseConverter">
       <RootProperty Name="ConvertToUpper" />
     </RootType>
@@ -657,6 +688,7 @@
     <RootType FullName="Xamarin.Forms.Platform.UWP.BoolToVisibilityConverter">
       <RootProperty Name="FalseIsVisible" />
     </RootType>
+    <RootType FullName="Xamarin.Forms.Platform.UWP.BrushConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.PageToRenderedElementConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.ImageConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.ViewToRendererConverter" />
@@ -743,21 +775,6 @@
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Xamarin.Forms.Platform.UWP.Resources" />
-    <RootType FullName="Xamarin.Forms.Platform.UWP.ShellToolbarItemRenderer">
-      <RootProperty Name="ToolbarItem" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="IsEnabled" />
-      <RootProperty Name="Command" />
-      <RootProperty Name="CommandParameter" />
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Icon" />
-    </RootType>
-    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.FormsSlider" />
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Thumb">
       <RootProperty Name="Background" />
@@ -795,9 +812,64 @@
       <RootProperty Name="Visibility" />
       <RootProperty Name="RenderTransform" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+    <RootType FullName="Xamarin.Forms.Platform.UWP.FormsEmbeddedPageWrapper" />
+    <RootType FullName="Xamarin.Forms.Platform.UWP.ShellRenderer" />
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="PaneToggleButtonStyle" />
+      <RootProperty Name="CompactPaneLength" />
+    </RootType>
+    <RootType FullName="Xamarin.Forms.Platform.UWP.ShellSplitView">
+      <RootProperty Name="Background" />
+      <RootProperty Name="CompactPaneLength" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="PaneBackground" />
+      <RootProperty Name="Pane" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Xamarin.Forms.Platform.UWP.FormsEmbeddedPageWrapper" />
+    <RootType FullName="Microsoft.UI.Xaml.Controls.ItemsRepeaterScrollHost">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="ScrollViewer" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.ItemsRepeater">
+      <RootProperty Name="Layout" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.StackLayout">
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
+      <RootProperty Name="Placement" />
+      <RootProperty Name="ElementSoundMode" />
+      <RootProperty Name="FlyoutPresenterStyle" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTip" />
+    <RootType FullName="Xamarin.Forms.Platform.UWP.ShellToolbarItemRenderer">
+      <RootProperty Name="ToolbarItem" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" />
+    <RootType FullName="Xamarin.Forms.Platform.UWP.ShellFlyoutItemRenderer">
+      <RootProperty Name="IsSelected" />
+    </RootType>
   </Roots.RootTypes>
 </Roots>

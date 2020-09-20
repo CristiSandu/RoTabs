@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jJqwmEy6Y2Jty5y2ZrDYqSDl8/SD0991TPHkTl2JdhS9L04CY+lojEHqFh/rRKLWJ2aft/07taoovuM1Xb5C4A==",
+  "dgSpecHash": "FRYTmDi3PDomZEparIfO7thezpHtmOCjmZH1Lt8Ga9Z7D/Qu1BINqxwxURtnODyUsVazjPsxZnvFPKipuju34Q==",
   "success": true,
   "projectFilePath": "S:\\Cristi\\App-Xamarin\\Tabulaturi_ro\\TabulaturiRO\\TabulaturiRO\\TabulaturiRO\\TabulaturiRO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cryst\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\cryst\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\cryst\\.nuget\\packages\\resizetizer.nt\\0.1.0\\resizetizer.nt.0.1.0.nupkg.sha512",
     "C:\\Users\\cryst\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\cryst\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\cryst\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
@@ -15,8 +16,8 @@
     "C:\\Users\\cryst\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\cryst\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\cryst\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "C:\\Users\\cryst\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\cryst\\.nuget\\packages\\xamarin.forms\\4.8.0.1364\\xamarin.forms.4.8.0.1364.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,11 @@
+#cardTab {
+    filter: invert(100%);
+}
+
+.styles {
+    filter: invert(100%);
+}
+
+.stack{
+    background-color:aqua;
+}

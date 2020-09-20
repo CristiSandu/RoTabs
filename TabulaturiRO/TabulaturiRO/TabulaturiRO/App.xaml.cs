@@ -2,19 +2,22 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace TabulaturiRO
 {
     public partial class App : Application
     {
 
         public static string DataBaseLocation = string.Empty;
+        public static string DataBaseLocationOfflineSongs = string.Empty;
+
         public App()
         {
             InitializeComponent();
 
             MainPage = new MainPage();
         }
-       
+
         public App(string dbName)
         {
             InitializeComponent();
@@ -22,6 +25,17 @@ namespace TabulaturiRO
             MainPage = new MainPage();
             DataBaseLocation = dbName;
         }
+
+
+        public App(string dbName, string dbName2)
+        {
+            InitializeComponent();
+
+            MainPage = new MainPage();
+            DataBaseLocation = dbName;
+            DataBaseLocationOfflineSongs = dbName2;
+        }
+
 
         protected override void OnStart()
         {

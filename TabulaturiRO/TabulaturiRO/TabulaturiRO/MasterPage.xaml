@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:TabulaturiRO"
+             mc:Ignorable="d"
+             IconImageSource="hamburger.png"
+             Padding="0,10,0,0"
+             
+             x:Class="TabulaturiRO.MasterPage"
+             Title="TabulaturiRo">
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" >
+            <Label Text=" "/>
+            <Image Source="test.png" HeightRequest="50" WidthRequest="50"  />
+            <Label Text=" "/>
+            <Label Text="RoTabs"  FontSize="50" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+        <ListView x:Name="listView1" x:FieldModifier="public" HasUnevenRows="True" ItemSelected="listView1_ItemSelected" SeparatorVisibility="None">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+
+                    <local:MasterPageItem Title="Artisti" IconSource="artists2.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:ArtistsList}" />
+                    <local:MasterPageItem Title="Melodii" IconSource="songs.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:songList}" />
+                    <local:MasterPageItem Title="Melodii Offline" IconSource="offline.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:OfflineSongs}" />
+                    <local:MasterPageItem Title="Start Page" IconSource="start.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:StartPage}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="65">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text=" "/>
+                            <Image Source="{Binding IconSource}" HeightRequest="{Binding SizeImg}" WidthRequest="{Binding SizeImg}"  />
+                            <Label Text=" "/>
+                            <Label Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </StackLayout>
+</ContentPage>
+<!--
+<Grid Padding="5,10">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="30"/>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Image Source="{Binding IconSource}" HeightRequest="48" WidthRequest="48" />
+    <Label Grid.Column="1" Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="{Binding VertOptions}" HorizontalOptions="{Binding HorOptions}"/>
+</Grid>
+    -->

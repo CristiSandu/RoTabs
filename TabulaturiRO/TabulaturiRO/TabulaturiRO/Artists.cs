@@ -12,7 +12,7 @@ namespace TabulaturiRO
         [PrimaryKey, Column("id")] 
         public int Id { get; set; }
 
-        [MaxLength(250), Unique, Column("name")]
+        [MaxLength(250) , Column("name")]
         public string Name { get; set; }
 
         [MaxLength(250), Unique, Column("link_artist")]
@@ -26,14 +26,27 @@ namespace TabulaturiRO
         [PrimaryKey, Column("id")]
         public int Id { get; set; }
 
-        [MaxLength(250), Unique, Column("title")]
+        [MaxLength(250) , Column("title")]
         public string Title { get; set; }
 
         [PrimaryKey, Column("artist_id")]
         public int Artist_Id { get; set; }
 
+        [PrimaryKey, Column("html_id")]
+        public int html_id { get; set; }
+
         [MaxLength(250), Unique, Column("link_track")]
         public string Link_Track { get; set; }
+    }
+
+    [Table ("Html_dark")]
+    public class Html_dark
+    {
+        [PrimaryKey, Column("id")]
+        public int Id { get; set; }
+
+        [MaxLength(250), Column("html_dark")]
+        public string Html_d { get; set; }
     }
 
     public class EditArtistDb
@@ -57,7 +70,7 @@ namespace TabulaturiRO
         public List<Artists> createList()
         {
             SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocation);
-            conn.CreateTable<Artists>();
+            //conn.CreateTable<Artists>();
             var tasks = conn.Table<Artists>().ToList();
             conn.Close();
             return tasks;

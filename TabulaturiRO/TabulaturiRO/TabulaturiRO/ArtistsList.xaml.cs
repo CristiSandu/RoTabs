@@ -17,6 +17,7 @@ namespace TabulaturiRO
         public ArtistsList()
         {
             InitializeComponent();
+            
         }
 
         protected override void OnAppearing()

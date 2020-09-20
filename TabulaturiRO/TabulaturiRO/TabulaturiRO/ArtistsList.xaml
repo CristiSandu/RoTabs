@@ -13,7 +13,7 @@
     </NavigationPage.TitleView>
     
     <StackLayout>
-        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True">
+        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Height="65">
