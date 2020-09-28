@@ -13,7 +13,11 @@ namespace TabulaturiRO
 
         [MaxLength(255)]
         public string Name_Song { get; set; }
-    
+
+        [MaxLength(255)]
+        public string Name_Artist { get; set; }
+
+
         public string HTML_Song { get; set; }
 
         public int HTML_dark { get; set; }

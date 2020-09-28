@@ -4,21 +4,28 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             Padding="10,0,0,0"
+             BackgroundColor="#e5e5e5"
              
              x:Class="TabulaturiRO.ArtistsList">
     <NavigationPage.TitleView>
         <SearchBar x:Name="searchBarArtists" Placeholder="Search..." TextChanged="searchBarArtists_TextChanged"  />
 
     </NavigationPage.TitleView>
-    
-    <StackLayout>
-        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell Height="65">
-                        <Label x:Name="artist_Name" Text="{Binding Name}" VerticalOptions="Center" FontSize="Large"/>
 
+    <StackLayout>
+        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None" >
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <ViewCell Height="65">
+                        <Frame
+                            BorderColor="#fca311"
+                            CornerRadius="10"
+                            HasShadow="True"
+                            Padding="2"
+                            Margin="0,5,0,5"
+                            >
+                            <Label x:Name="artist_Name" Text="{Binding Name}" VerticalOptions="Center" FontSize="Large" Padding="10,0,0,0"/>
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

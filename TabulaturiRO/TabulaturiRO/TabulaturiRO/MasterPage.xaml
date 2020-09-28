@@ -3,44 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:local="clr-namespace:TabulaturiRO"
              mc:Ignorable="d"
              IconImageSource="hamburger.png"
              Padding="0,10,0,0"
-             
+             BackgroundColor="#fca311"
              x:Class="TabulaturiRO.MasterPage"
              Title="TabulaturiRo">
     <StackLayout>
-        <StackLayout Orientation="Horizontal" >
-            <Label Text=" "/>
-            <Image Source="test.png" HeightRequest="50" WidthRequest="50"  />
-            <Label Text=" "/>
-            <Label Text="RoTabs"  FontSize="50" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <StackLayout Padding="10,0,10,0">
+            <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+                <Image Source="test.png" HeightRequest="50" WidthRequest="50"   />
+                <Label Text="RoTabs"  FontSize="50" VerticalOptions="Center" HorizontalOptions="Center" Padding="10,0,0,0"/>
+
+            </StackLayout>
+            <BoxView HeightRequest="1" Color="Black"  />
         </StackLayout>
+
         <ListView x:Name="listView1" x:FieldModifier="public" HasUnevenRows="True" ItemSelected="listView1_ItemSelected" SeparatorVisibility="None">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-
-                    <local:MasterPageItem Title="Artisti" IconSource="artists2.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:ArtistsList}" />
-                    <local:MasterPageItem Title="Melodii" IconSource="songs.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:songList}" />
-                    <local:MasterPageItem Title="Melodii Offline" IconSource="offline.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:OfflineSongs}" />
-                    <local:MasterPageItem Title="Start Page" IconSource="start.png" SizeImg="24" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:StartPage}" />
+                    <local:MasterPageItem Title="Start Page" IconSource="start.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:StartPage}" />
+                    <local:MasterPageItem Title="Artisti" IconSource="microphone.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:ArtistsList}" />
+                    <local:MasterPageItem Title="Melodii" IconSource="disc.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:songList}" />
+                    <local:MasterPageItem Title="Melodii Offline" IconSource="cassette.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:OfflineSongs}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Height="65">
-                        <StackLayout Orientation="Horizontal" >
-                            <Label Text=" "/>
+                        <StackLayout Orientation="Horizontal" Padding="10,0,0,0" >
+
                             <Image Source="{Binding IconSource}" HeightRequest="{Binding SizeImg}" WidthRequest="{Binding SizeImg}"  />
-                            <Label Text=" "/>
-                            <Label Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                            <Label Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="Center" HorizontalOptions="Center" Padding="10,0,0,0"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
+        <Frame
+           BackgroundColor="#fca311"
+           Padding="10,10,10,150"
+            HasShadow="True">
+            <ic:CircleImage WidthRequest="100" HeightRequest="100" Source="profil.png" Rotation="270"  VerticalOptions="Center" />
+        </Frame>
 
     </StackLayout>
 </ContentPage>

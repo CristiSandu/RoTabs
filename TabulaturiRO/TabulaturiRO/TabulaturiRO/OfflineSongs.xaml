@@ -4,17 +4,24 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-              Padding="10,0,0,0"
+              Padding="0,0,0,0"
+              BackgroundColor="#e5e5e5"
              x:Class="TabulaturiRO.OfflineSongs">
-    
-    
-    
+
+
+
     <StackLayout>
         <ListView x:Name="listOfflineSongs" ItemSelected="listOfflineSongs_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
             <ListView.ItemTemplate >
                 <DataTemplate>
                     <ViewCell Height="65">
-                        <Label x:Name ="songName" Text="{Binding Name_Song}" VerticalOptions="Center" FontSize="Large"/>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Spacing="5" HorizontalOptions="StartAndExpand">
+                                <Label x:Name ="songName" Text="{Binding Name_Song}" VerticalOptions="Center" FontSize="Large" Padding="10,10,0,0" FontAttributes="Bold"/>
+                                <Label x:Name ="songName2" Text="{Binding Name_Artist}" VerticalOptions="Center" FontSize="Medium" Padding="10,0,10,0" />
+                            </StackLayout>
+                            <Button x:Name="deleteSong" BackgroundColor="#e5e5e5" HorizontalOptions="End" Clicked="deleteSong_Clicked"  ImageSource="delete.png"/>
+                        </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

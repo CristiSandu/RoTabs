@@ -12,7 +12,13 @@
 
   <ItemGroup>
     <None Remove="Img\artists2.svg" />
+    <None Remove="Img\cassette.svg" />
+    <None Remove="Img\delete.svg" />
+    <None Remove="Img\disc.svg" />
+    <None Remove="Img\microphone.svg" />
     <None Remove="Img\offline.svg" />
+    <None Remove="Img\profil.jpg" />
+    <None Remove="Img\quaver.svg" />
     <None Remove="Img\settings.svg" />
     <None Remove="Img\songs.svg" />
     <None Remove="Img\start.svg" />
@@ -20,22 +26,26 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SharedImage Include="Img\songs.svg" BaseSize="48,48"/>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Resizetizer.NT" Version="0.1.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <SharedImage Include="Img\cassette.svg" BaseSize="48,48"/>
+    <SharedImage Include="Img\disc.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\microphone.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\quaver.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\profil.jpg" BaseSize="48,48" />
+    <SharedImage Include="Img\songs.svg" BaseSize="48,48" />
     <SharedImage Include="Img\artists2.svg" BaseSize="48,48" />
     <SharedImage Include="Img\offline.svg" BaseSize="48,48" />
     <SharedImage Include="Img\settings.svg" BaseSize="48,48" />
     <SharedImage Include="Img\start.svg" BaseSize="48,48" />
     <SharedImage Include="Img\test.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\delete.svg" BaseSize="35,35" />
   </ItemGroup>
 
   <ItemGroup>

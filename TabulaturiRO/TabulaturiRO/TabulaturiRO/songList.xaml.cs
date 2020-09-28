@@ -26,6 +26,9 @@ namespace TabulaturiRO
         {
             InitializeComponent();
             _art = art;
+            artistisName.Text = art.Name;
+            artistisName.IsVisible = true;
+           
             
         }
 
@@ -42,6 +45,7 @@ namespace TabulaturiRO
             if (_art == null)
             {
                 _tracks = tracks.ToList();
+                
             }
             else
             {
@@ -55,6 +59,8 @@ namespace TabulaturiRO
                 }
                 else
                     tracksListView.ItemsSource = _tracks;
+
+               
             }
 
             searchBarTracks.IsVisible = true;

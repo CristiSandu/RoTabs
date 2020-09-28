@@ -53,7 +53,7 @@ namespace TabulaturiRO
                 var stocksStartingWithA = conn2.Query<Artists>("SELECT * FROM Artists WHERE id = ?", _track.Artist_Id);
                 var list = stocksStartingWithA.ToList<Artists>();
                 string fullname = list[0].Name + " - " + _track.Title;
-                song = new OfflineSong { Name_Song = fullname, HTML_Song = content, HTML_dark = _track.html_id };
+                song = new OfflineSong { Name_Song = _track.Title,Name_Artist= list[0].Name, HTML_Song = content, HTML_dark = _track.html_id };
 
                 conn.Insert(song);
             }

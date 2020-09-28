@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[0.1.0, )"
             },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.0.0.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"

@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.IO;
+using ImageCircle.Forms.Plugin.Droid;
 
 namespace TabulaturiRO.Droid
 {
@@ -22,6 +23,7 @@ namespace TabulaturiRO.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            ImageCircleRenderer.Init();
 
             string dbName = "artistsdb1.sqlite";
             string folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);

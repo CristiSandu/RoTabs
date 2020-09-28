@@ -4,23 +4,37 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             Padding="10,0,0,0"
+            BackgroundColor="#e5e5e5"
              NavigationPage.HasBackButton="False"
              x:Class="TabulaturiRO.songList">
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
+
             <SearchBar x:Name="searchBarTracks" Placeholder="Search..." TextChanged="searchBarTracks_TextChanged" IsVisible="true"/>
         </StackLayout>
     </NavigationPage.TitleView>
 
     <StackLayout>
+        <Label x:Name="artistisName" IsVisible="false" HorizontalOptions="Start" FontSize="Large" FontAttributes="Bold" Padding="10,0,0,0"/>
         <Label x:Name="noSongLabel" Text="No song added to this artist" IsVisible="false" HorizontalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold"/>
         <Button x:Name="backButton" Text="Back" IsVisible="False" Clicked="backButton_Clicked" HorizontalOptions="Center"/>
+
         <ListView x:Name="tracksListView" ItemSelected="tracksListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Height="65">
-                        <Label x:Name="task_Name" Text="{Binding Title}" VerticalOptions="Center" FontSize="Large"/>
+                        <Frame
+                            BorderColor="#fca311"
+                            CornerRadius="10"
+                            HasShadow="True"
+                            Padding="2"
+                            Margin="0,5,0,5"
+                            >
+
+                            <Label x:Name="task_Name" Text="{Binding Title}" VerticalOptions="Center" FontSize="Large" Padding="10,0,0,0"/>
+
+
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

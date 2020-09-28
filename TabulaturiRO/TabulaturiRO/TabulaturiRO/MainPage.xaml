@@ -17,7 +17,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <local:ArtistsList />
+                <local:StartPage />
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

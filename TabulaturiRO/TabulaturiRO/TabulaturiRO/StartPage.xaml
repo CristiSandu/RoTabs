@@ -3,117 +3,59 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              mc:Ignorable="d"
+              BackgroundColor="#e5e5e5"
              x:Class="TabulaturiRO.StartPage">
     <NavigationPage.TitleView>
-        <ScrollView>
-            <StackLayout Orientation="Horizontal">
-                <SearchBar x:Name="searchBarGlobaly" Placeholder="Search..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true" HorizontalOptions="Start"/>
-                <Image Source="test.png" HeightRequest="48" WidthRequest="48" HorizontalOptions="EndAndExpand"/>
-            </StackLayout>
-        </ScrollView>
+
+        <StackLayout Orientation="Horizontal">
+            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true" HorizontalOptions="Start"/>
+        </StackLayout>
+
     </NavigationPage.TitleView>
-
-    <StackLayout>
-        <ListView IsVisible="false" x:Name="allListView" HasUnevenRows="True">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell Height="65">
-                        <StackLayout>
-                            <Label x:Name="artistsLabel" Text="{Binding Name}" />
-                            <Label x:Name="tracksLabel" Text="{Binding Title}" />
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
+    <ScrollView>
         <StackLayout>
-            <ScrollView Orientation="Horizontal">
-                <StackLayout Orientation="Horizontal">
-                    <Button Text="1" Clicked="Button_Clicked"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                    <Button Text="1"/>
-                </StackLayout>
-            </ScrollView>
-            <ScrollView>
-                <StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                        <Button Text="1"/>
-                    </StackLayout>
-                </StackLayout>
-            </ScrollView>
+            <ListView IsVisible="false" x:Name="allListView" HasUnevenRows="True" ItemSelected="allListView_ItemSelected">
+                <ListView.ItemTemplate >
+                    <DataTemplate >
+                        <ViewCell Height="65">
+                            <StackLayout>
+                                <Label x:Name="artistsLabel" Text="{Binding Name}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout x:Name="principalStack"
+                     Padding="10,10,10,10"
+                     Spacing="20">
+                <Label Text="Welcome back ! " HorizontalOptions="Center"  FontSize="Title" FontAttributes="Bold"/>
+                <ic:CircleImage WidthRequest="100" HeightRequest="100" Source="profil.png" Rotation="270"  VerticalOptions="End" Aspect="AspectFit" />
+                <Frame
+                BorderColor="#fca311"
+                CornerRadius="10"
+                HasShadow="True"
+                >
+                    <Label x:Name="description"/>
+                </Frame>
+                <Frame
+                BorderColor="#fca311"
+                CornerRadius="10"
+                HasShadow="True"
+                >
+                    <Label x:Name="description1"/>
+                </Frame>
+                <Frame
+                BorderColor="#fca311"
+                CornerRadius="10"
+                HasShadow="True"
+                >
+                    <Label x:Name="description2"/>
+                </Frame>
+            </StackLayout>
 
         </StackLayout>
-        <Image Source="test.png" HeightRequest="100" WidthRequest="100"/>
-    </StackLayout>
+    </ScrollView>
 </ContentPage>
