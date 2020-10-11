@@ -55,9 +55,20 @@ namespace TabulaturiRO
                 string fullname = list[0].Name + " - " + _track.Title;
                 song = new OfflineSong { Name_Song = _track.Title,Name_Artist= list[0].Name, HTML_Song = content, HTML_dark = _track.html_id };
 
-                conn.Insert(song);
+                var verifycopy = conn.Query<OfflineSong>("SELECT * FROM OfflineSong WHERE HTML_Song = ?", content);
+
+                if (verifycopy.Count == 0)
+                {
+                    conn.Insert(song);
+                }else
+                {
+                    await DisplayAlert("Alerta!", "Melodia exista deja in lista", "ok");
+                }
+                    
+                
             }
             conn.Close();
+            conn2.Close();
         }
     }
 }

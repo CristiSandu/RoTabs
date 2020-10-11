@@ -48,7 +48,7 @@
            BackgroundColor="#fca311"
            Padding="10,10,10,150"
             HasShadow="True">
-            <ic:CircleImage WidthRequest="100" HeightRequest="100" Source="profil.png" Rotation="270"  VerticalOptions="Center" />
+            <ic:CircleImage WidthRequest="100" HeightRequest="100" BorderColor="#fca311" Source="guitar.png" VerticalOptions="Center" />
         </Frame>
 
     </StackLayout>

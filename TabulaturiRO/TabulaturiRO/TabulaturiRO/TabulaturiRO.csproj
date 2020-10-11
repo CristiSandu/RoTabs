@@ -15,6 +15,7 @@
     <None Remove="Img\cassette.svg" />
     <None Remove="Img\delete.svg" />
     <None Remove="Img\disc.svg" />
+    <None Remove="Img\guitar.jpg" />
     <None Remove="Img\microphone.svg" />
     <None Remove="Img\offline.svg" />
     <None Remove="Img\profil.jpg" />
@@ -34,8 +35,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SharedImage Include="Img\cassette.svg" BaseSize="48,48"/>
+    <SharedImage Include="Img\cassette.svg" BaseSize="48,48" />
     <SharedImage Include="Img\disc.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\guitar.jpg" BaseSize="50,50"/>
     <SharedImage Include="Img\microphone.svg" BaseSize="48,48" />
     <SharedImage Include="Img\quaver.svg" BaseSize="48,48" />
     <SharedImage Include="Img\profil.jpg" BaseSize="48,48" />

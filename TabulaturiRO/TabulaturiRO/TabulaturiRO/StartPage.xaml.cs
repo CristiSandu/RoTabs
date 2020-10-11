@@ -35,7 +35,7 @@ namespace TabulaturiRO
             conn.CreateTable<OfflineSong>();
             var songs = conn.Table<OfflineSong>().ToList();
             _songs = new ObservableCollection<OfflineSong>(songs);
-
+            allListView.IsVisible = false;
             conn.Close();
 
         }
@@ -82,6 +82,7 @@ namespace TabulaturiRO
 
             allListView.SelectedItem = null;
             searchBarGlobaly.Text = "";
+            allListView.IsVisible = false;
 
         }
     }

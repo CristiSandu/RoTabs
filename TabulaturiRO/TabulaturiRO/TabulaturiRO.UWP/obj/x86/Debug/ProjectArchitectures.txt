@@ -1,0 +1,1 @@
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\TabulaturiRO.UWP.csproj;x86

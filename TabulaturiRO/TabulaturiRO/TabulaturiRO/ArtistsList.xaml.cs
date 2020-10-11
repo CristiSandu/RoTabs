@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,7 +52,20 @@ namespace TabulaturiRO
             if (String.IsNullOrWhiteSpace(newTextValue))
                 return artists;
 
-            return artists.Where(c => c.Name.StartsWith(newTextValue,true,null));
+            return artists.Where(c => c.Name.StartsWith(RemoveDiacritics(newTextValue),true,null));
         }
+
+
+        public string RemoveDiacritics(string text)
+        {
+            if (String.IsNullOrWhiteSpace(text))
+                return text;
+
+            text = text.Normalize(NormalizationForm.FormD);
+            var chars = text.Where(c => CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark).ToArray();
+            return new string(chars).Normalize(NormalizationForm.FormC);
+        }
+
     }
+
 }

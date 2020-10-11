@@ -10,7 +10,7 @@
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
 
-            <SearchBar x:Name="searchBarTracks" Placeholder="Search..." TextChanged="searchBarTracks_TextChanged" IsVisible="true"/>
+            <SearchBar x:Name="searchBarTracks" Placeholder="Search Song..." TextChanged="searchBarTracks_TextChanged" IsVisible="true"/>
         </StackLayout>
     </NavigationPage.TitleView>
 

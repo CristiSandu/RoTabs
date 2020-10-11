@@ -24,7 +24,7 @@
                  />
         <ScrollView>
             <StackLayout Orientation="Horizontal" BackgroundColor="White" HeightRequest="48">
-                <Button x:Name="addToOfflineList" BackgroundColor="White" 
+                <Button x:Name="addToOfflineList" BackgroundColor="Transparent" BorderColor="Transparent" 
                         Clicked="addToOfflineList_Clicked" 
                         ImageSource="offline.png" 
                         HorizontalOptions="StartAndExpand" 

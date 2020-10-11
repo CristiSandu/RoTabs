@@ -8,7 +8,7 @@
              
              x:Class="TabulaturiRO.ArtistsList">
     <NavigationPage.TitleView>
-        <SearchBar x:Name="searchBarArtists" Placeholder="Search..." TextChanged="searchBarArtists_TextChanged"  />
+        <SearchBar x:Name="searchBarArtists" Placeholder="Search Artists..." TextChanged="searchBarArtists_TextChanged"  />
 
     </NavigationPage.TitleView>
 
