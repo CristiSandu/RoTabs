@@ -3,14 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              mc:Ignorable="d"
-              BackgroundColor="#e5e5e5"
+             BackgroundColor="#14213D"
+         
              x:Class="TabulaturiRO.StartPage">
-    <NavigationPage.TitleView>
+    <NavigationPage.TitleView >
 
         <StackLayout Orientation="Horizontal">
-            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search Artists..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true" HorizontalOptions="Start"/>
+            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search Artist..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true" HorizontalOptions="Start"/>
         </StackLayout>
 
     </NavigationPage.TitleView>
@@ -23,12 +24,13 @@
 
                             <Frame
                             BorderColor="#fca311"
+                            BackgroundColor="Transparent"
                             CornerRadius="10"
                             HasShadow="True"
                             Padding="2"
                             Margin="0,5,0,5"
                             >
-                                <Label x:Name="artist_Name" Text="{Binding Name}" VerticalOptions="Center" FontSize="Large" Padding="10,0,0,0"/>
+                                <Label x:Name="artist_Name" Text="{Binding Name}" TextColor="#fca311" VerticalOptions="Center" FontSize="Large" Padding="10,0,0,0"/>
                             </Frame>
 
                         </ViewCell>
@@ -39,28 +41,37 @@
             <StackLayout x:Name="principalStack"
                      Padding="10,10,10,10"
                      Spacing="20">
-                <Label Text="Welcome back ! " HorizontalOptions="Center"  FontSize="Title" FontAttributes="Bold"/>
+                <Label Text="Welcome back ! " TextColor="#fca311" HorizontalOptions="Center"  FontSize="Title" FontAttributes="Bold"/>
                 <ic:CircleImage WidthRequest="100" HeightRequest="100" Source="guitar.png" BorderColor="#fca311"   VerticalOptions="End" />
                 <Frame
-                BorderColor="#fca311"
-                CornerRadius="10"
-                HasShadow="True"
-                >
-                    <Label x:Name="description"/>
+                            BorderColor="#fca311"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="True"
+                            Padding="2"
+                            Margin="0,5,0,5"
+                            >
+                    <Label x:Name="description" TextColor="#fca311" Padding="10,10,10,10"/>
                 </Frame>
                 <Frame
-                BorderColor="#fca311"
-                CornerRadius="10"
-                HasShadow="True"
-                >
-                    <Label x:Name="description1"/>
+                            BorderColor="#fca311"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="True"
+                            Padding="2"
+                            Margin="0,5,0,5"
+                            >
+                    <Label x:Name="description1" TextColor="#fca311" Padding="10,10,10,10"/>
                 </Frame>
                 <Frame
-                BorderColor="#fca311"
-                CornerRadius="10"
-                HasShadow="True"
-                >
-                    <Label x:Name="description2"/>
+                            BorderColor="#fca311"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="True"
+                            Padding="2"
+                            Margin="0,5,0,5"
+                            >
+                    <Label x:Name="description2" TextColor="#fca311" Padding="10,10,10,10"/>
                 </Frame>
             </StackLayout>
 

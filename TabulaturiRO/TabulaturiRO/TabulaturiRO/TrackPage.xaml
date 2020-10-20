@@ -8,12 +8,6 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              x:Class="TabulaturiRO.TrackPage">
 
-    <NavigationPage.TitleView>
-        <Button x:Name="addToOfflineList1" Text="Add To Offline" Clicked="addToOfflineList_Clicked"/>
-
-    </NavigationPage.TitleView>
-
-
     <StackLayout Spacing="0">
         <WebView x:Name="trackPage" 
                  WidthRequest="1000" 

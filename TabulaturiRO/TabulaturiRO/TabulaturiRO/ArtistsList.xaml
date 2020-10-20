@@ -4,13 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="#e5e5e5"
-             
+             BackgroundColor="#14213D"
              x:Class="TabulaturiRO.ArtistsList">
     <NavigationPage.TitleView>
-        <SearchBar x:Name="searchBarArtists" Placeholder="Search Artists..." TextChanged="searchBarArtists_TextChanged"  />
-
+        <SearchBar x:Name="searchBarArtists" Placeholder="Search Artist..." TextChanged="searchBarArtists_TextChanged"  />
     </NavigationPage.TitleView>
+
 
     <StackLayout>
         <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None" >
@@ -19,12 +18,13 @@
                     <ViewCell Height="65">
                         <Frame
                             BorderColor="#fca311"
+                            BackgroundColor="Transparent"
                             CornerRadius="10"
                             HasShadow="True"
                             Padding="2"
                             Margin="0,5,0,5"
                             >
-                            <Label x:Name="artist_Name" Text="{Binding Name}" VerticalOptions="Center" FontSize="Large" Padding="10,0,0,0"/>
+                            <Label x:Name="artist_Name" Text="{Binding Name}" TextColor="#fca311" VerticalOptions="Center" FontSize="Large" Padding="10,0,0,0"/>
                         </Frame>
                     </ViewCell>
                 </DataTemplate>

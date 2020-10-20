@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C2AE3C8CBE548FAB87569956E11B0930481762B13043D4E576F8FEAA04F3FB04</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D8337610BD10E6F2C6073B29A8958E42981EE652DC693B62A1C068DA412250D5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d02b1c91-eb50-42a0-881d-a94f1a05d15e_1.0.0.0_x86__098exr3077c2w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d02b1c91-eb50-42a0-881d-a94f1a05d15e_098exr3077c2w!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d02b1c91-eb50-42a0-881d-a94f1a05d15e</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-28T16:16:36.827</Modified>
+      <Modified>2020-10-12T10:30:56.270</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\TabulaturiRO.UWP.exe">
       <PackagePath>entrypoint\TabulaturiRO.UWP.exe</PackagePath>
-      <Modified>2020-09-28T16:14:17.467</Modified>
+      <Modified>2020-10-12T10:30:55.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\bin\Debug\netstandard2.0\TabulaturiRO.dll">
       <PackagePath>TabulaturiRO.dll</PackagePath>
-      <Modified>2020-09-28T16:16:29.294</Modified>
+      <Modified>2020-10-12T10:17:15.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cryst\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -110,317 +110,137 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-08-27T19:41:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\004-audio jack.scale-100.png">
-      <PackagePath>004-audio jack.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.132</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\004-audio jack.scale-200.png">
-      <PackagePath>004-audio jack.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.145</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\004-audio jack.scale-400.png">
-      <PackagePath>004-audio jack.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\007-cajon.scale-100.png">
-      <PackagePath>007-cajon.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.153</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\007-cajon.scale-200.png">
-      <PackagePath>007-cajon.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.154</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\007-cajon.scale-400.png">
-      <PackagePath>007-cajon.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.159</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\008-cassette.scale-100.png">
-      <PackagePath>008-cassette.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.144</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\008-cassette.scale-200.png">
-      <PackagePath>008-cassette.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.146</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\008-cassette.scale-400.png">
-      <PackagePath>008-cassette.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.150</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\013-disc.scale-100.png">
-      <PackagePath>013-disc.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.156</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\013-disc.scale-200.png">
-      <PackagePath>013-disc.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.160</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\013-disc.scale-400.png">
-      <PackagePath>013-disc.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.168</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\020-equalizer.scale-100.png">
-      <PackagePath>020-equalizer.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.143</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\020-equalizer.scale-200.png">
-      <PackagePath>020-equalizer.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.145</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\020-equalizer.scale-400.png">
-      <PackagePath>020-equalizer.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.151</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\025-guitar pick.scale-100.png">
-      <PackagePath>025-guitar pick.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.155</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\025-guitar pick.scale-200.png">
-      <PackagePath>025-guitar pick.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.158</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\025-guitar pick.scale-400.png">
-      <PackagePath>025-guitar pick.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.163</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\026-guitar.scale-100.png">
-      <PackagePath>026-guitar.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.132</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\026-guitar.scale-200.png">
-      <PackagePath>026-guitar.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.144</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\026-guitar.scale-400.png">
-      <PackagePath>026-guitar.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.148</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\029-headphones.scale-100.png">
-      <PackagePath>029-headphones.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.153</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\029-headphones.scale-200.png">
-      <PackagePath>029-headphones.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.155</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\029-headphones.scale-400.png">
-      <PackagePath>029-headphones.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.163</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\038-quaver.scale-100.png">
-      <PackagePath>038-quaver.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.153</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\038-quaver.scale-200.png">
-      <PackagePath>038-quaver.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.155</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\038-quaver.scale-400.png">
-      <PackagePath>038-quaver.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:14:07.159</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\artists2.scale-100.png">
       <PackagePath>artists2.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.280</Modified>
+      <Modified>2020-10-11T19:53:28.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\artists2.scale-200.png">
       <PackagePath>artists2.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.294</Modified>
+      <Modified>2020-10-11T19:53:28.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\artists2.scale-400.png">
       <PackagePath>artists2.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.299</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\audio jack.scale-100.png">
-      <PackagePath>audio jack.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.310</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\audio jack.scale-200.png">
-      <PackagePath>audio jack.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.323</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\audio jack.scale-400.png">
-      <PackagePath>audio jack.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.326</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cajon.scale-100.png">
-      <PackagePath>cajon.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.291</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cajon.scale-200.png">
-      <PackagePath>cajon.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.293</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cajon.scale-400.png">
-      <PackagePath>cajon.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.297</Modified>
+      <Modified>2020-10-11T19:53:28.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cassette.scale-100.png">
       <PackagePath>cassette.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.308</Modified>
+      <Modified>2020-10-11T19:53:28.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cassette.scale-200.png">
       <PackagePath>cassette.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.310</Modified>
+      <Modified>2020-10-11T19:53:28.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cassette.scale-400.png">
       <PackagePath>cassette.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.326</Modified>
+      <Modified>2020-10-11T19:53:28.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete.scale-100.png">
       <PackagePath>delete.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.317</Modified>
+      <Modified>2020-10-11T19:53:28.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete.scale-200.png">
       <PackagePath>delete.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.327</Modified>
+      <Modified>2020-10-11T19:53:28.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete.scale-400.png">
       <PackagePath>delete.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.329</Modified>
+      <Modified>2020-10-11T19:53:28.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\disc.scale-100.png">
       <PackagePath>disc.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.293</Modified>
+      <Modified>2020-10-11T19:53:28.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\disc.scale-200.png">
       <PackagePath>disc.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.294</Modified>
+      <Modified>2020-10-11T19:53:28.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\disc.scale-400.png">
       <PackagePath>disc.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.300</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\equalizer.scale-100.png">
-      <PackagePath>equalizer.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.303</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\equalizer.scale-200.png">
-      <PackagePath>equalizer.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.304</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\equalizer.scale-400.png">
-      <PackagePath>equalizer.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.308</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar.scale-100.png">
-      <PackagePath>guitar.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.281</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar.scale-200.png">
-      <PackagePath>guitar.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.326</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar.scale-400.png">
-      <PackagePath>guitar.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.330</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar_pick.scale-100.png">
-      <PackagePath>guitar_pick.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.291</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar_pick.scale-200.png">
-      <PackagePath>guitar_pick.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.294</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar_pick.scale-400.png">
-      <PackagePath>guitar_pick.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.298</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\headphones.scale-100.png">
-      <PackagePath>headphones.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.327</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\headphones.scale-200.png">
-      <PackagePath>headphones.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.329</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\headphones.scale-400.png">
-      <PackagePath>headphones.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.334</Modified>
+      <Modified>2020-10-11T19:53:28.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\microphone.scale-100.png">
       <PackagePath>microphone.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.279</Modified>
+      <Modified>2020-10-11T19:53:28.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\microphone.scale-200.png">
       <PackagePath>microphone.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.291</Modified>
+      <Modified>2020-10-11T19:53:28.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\microphone.scale-400.png">
       <PackagePath>microphone.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.298</Modified>
+      <Modified>2020-10-11T19:53:28.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\offline.scale-100.png">
       <PackagePath>offline.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.317</Modified>
+      <Modified>2020-10-11T19:53:28.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\offline.scale-200.png">
       <PackagePath>offline.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.328</Modified>
+      <Modified>2020-10-11T19:53:28.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\offline.scale-400.png">
       <PackagePath>offline.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.334</Modified>
+      <Modified>2020-10-11T19:53:28.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\quaver.scale-100.png">
       <PackagePath>quaver.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.314</Modified>
+      <Modified>2020-10-11T19:53:28.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\quaver.scale-200.png">
       <PackagePath>quaver.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.324</Modified>
+      <Modified>2020-10-11T19:53:28.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\quaver.scale-400.png">
       <PackagePath>quaver.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.328</Modified>
+      <Modified>2020-10-11T19:53:28.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\settings.scale-100.png">
       <PackagePath>settings.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.296</Modified>
+      <Modified>2020-10-11T19:53:28.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\settings.scale-200.png">
       <PackagePath>settings.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.299</Modified>
+      <Modified>2020-10-11T19:53:28.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\settings.scale-400.png">
       <PackagePath>settings.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.308</Modified>
+      <Modified>2020-10-11T19:53:28.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\songs.scale-100.png">
       <PackagePath>songs.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.314</Modified>
+      <Modified>2020-10-11T19:53:28.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\songs.scale-200.png">
       <PackagePath>songs.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.324</Modified>
+      <Modified>2020-10-11T19:53:28.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\songs.scale-400.png">
       <PackagePath>songs.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.328</Modified>
+      <Modified>2020-10-11T19:53:28.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\start.scale-100.png">
       <PackagePath>start.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.305</Modified>
+      <Modified>2020-10-11T19:53:28.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\start.scale-200.png">
       <PackagePath>start.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.306</Modified>
+      <Modified>2020-10-11T19:53:28.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\start.scale-400.png">
       <PackagePath>start.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.309</Modified>
+      <Modified>2020-10-11T19:53:28.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\test.scale-100.png">
       <PackagePath>test.scale-100.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.281</Modified>
+      <Modified>2020-10-11T19:53:28.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\test.scale-200.png">
       <PackagePath>test.scale-200.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.291</Modified>
+      <Modified>2020-10-11T19:53:28.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\test.scale-400.png">
       <PackagePath>test.scale-400.png</PackagePath>
-      <Modified>2020-09-28T16:16:31.302</Modified>
+      <Modified>2020-10-11T19:53:28.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -557,25 +377,33 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-06T14:38:26.656</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar.scale-100.jpg">
+      <PackagePath>guitar.scale-100.jpg</PackagePath>
+      <Modified>2020-10-11T19:53:28.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar.scale-200.jpg">
+      <PackagePath>guitar.scale-200.jpg</PackagePath>
+      <Modified>2020-10-11T19:53:28.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\guitar.scale-400.jpg">
+      <PackagePath>guitar.scale-400.jpg</PackagePath>
+      <Modified>2020-10-11T19:53:28.291</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\profil.scale-100.jpg">
       <PackagePath>profil.scale-100.jpg</PackagePath>
-      <Modified>2020-09-28T16:16:31.459</Modified>
+      <Modified>2020-10-11T19:53:28.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\profil.scale-200.jpg">
       <PackagePath>profil.scale-200.jpg</PackagePath>
-      <Modified>2020-09-28T16:16:31.483</Modified>
+      <Modified>2020-10-11T19:53:28.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\profil.scale-400.jpg">
       <PackagePath>profil.scale-400.jpg</PackagePath>
-      <Modified>2020-09-28T16:16:31.519</Modified>
+      <Modified>2020-10-11T19:53:28.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-08-06T14:38:26.728</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\artistsdb.sqlite">
-      <PackagePath>artistsdb.sqlite</PackagePath>
-      <Modified>2020-08-16T21:03:42.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\TabulaturiRO.UWP.xr.xml">
       <PackagePath>TabulaturiRO.UWP.xr.xml</PackagePath>
@@ -583,11 +411,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-28T16:16:35.585</Modified>
+      <Modified>2020-10-12T10:17:22.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-28T16:16:35.585</Modified>
+      <Modified>2020-10-12T10:17:22.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -603,11 +431,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-28T16:16:35.979</Modified>
+      <Modified>2020-10-12T10:24:18.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\Core\TabulaturiRO.UWP.exe">
       <PackagePath>TabulaturiRO.UWP.exe</PackagePath>
-      <Modified>2020-09-28T16:16:36.809</Modified>
+      <Modified>2020-10-12T10:30:56.266</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

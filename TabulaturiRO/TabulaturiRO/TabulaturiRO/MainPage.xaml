@@ -15,7 +15,7 @@
         <local:MasterPage x:Name="masterPage" />
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <NavigationPage>
+        <NavigationPage >
             <x:Arguments>
                 <local:StartPage />
             </x:Arguments>

@@ -1,5 +1,4 @@
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml
-S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\artistsdb.sqlite
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\App.xbf
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\MainPage.xbf
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\bin\x86\Debug\TabulaturiRO.UWP.xr.xml
@@ -110,3 +109,18 @@ S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\o
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\ProjectArchitectures.txt
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160643180000000.json
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885202160000000.json
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars-1.scale-100.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars-1.scale-200.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars-1.scale-400.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars-2.scale-100.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars-2.scale-200.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars-2.scale-400.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars.scale-100.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars.scale-200.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars.scale-400.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars1.scale-100.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars1.scale-200.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\Guitars1.scale-400.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete1.scale-100.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete1.scale-200.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete1.scale-400.png

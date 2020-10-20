@@ -11,7 +11,7 @@ using ImageCircle.Forms.Plugin.Droid;
 
 namespace TabulaturiRO.Droid
 {
-    [Activity(Label = "TabulaturiRO", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "TabulaturiRO", Icon = "@drawable/Guitars", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

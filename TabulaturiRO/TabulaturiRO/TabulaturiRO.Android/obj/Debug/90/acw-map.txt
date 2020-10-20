@@ -1,6 +1,9 @@
 TabulaturiRO.Droid.MainActivity, TabulaturiRO.Android;crc64291aead3c0b1b9ba.MainActivity
 TabulaturiRO.Droid.MainActivity;crc64291aead3c0b1b9ba.MainActivity
 tabulaturiro.droid.MainActivity;crc64291aead3c0b1b9ba.MainActivity
+TabulaturiRO.Droid.SplashActivity, TabulaturiRO.Android;crc64291aead3c0b1b9ba.SplashActivity
+TabulaturiRO.Droid.SplashActivity;crc64291aead3c0b1b9ba.SplashActivity
+tabulaturiro.droid.SplashActivity;crc64291aead3c0b1b9ba.SplashActivity
 ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin;crc6436929b8ad3b40f6f.ImageCircleRenderer
 ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer;crc6436929b8ad3b40f6f.ImageCircleRenderer
 imagecircle.forms.plugin.droid.ImageCircleRenderer;crc6436929b8ad3b40f6f.ImageCircleRenderer

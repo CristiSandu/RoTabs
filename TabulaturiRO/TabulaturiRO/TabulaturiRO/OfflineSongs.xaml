@@ -4,8 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-              Padding="0,0,0,0"
-              BackgroundColor="#e5e5e5"
+             Padding="0,0,0,0"
+             BackgroundColor="#14213D"
              x:Class="TabulaturiRO.OfflineSongs">
 
     <NavigationPage.TitleView>
@@ -17,13 +17,22 @@
             <ListView.ItemTemplate >
                 <DataTemplate>
                     <ViewCell Height="65">
-                        <StackLayout Orientation="Horizontal" Padding="10,5,10,10">
-                            <StackLayout Spacing="2" HorizontalOptions="StartAndExpand" >
-                                <Label x:Name ="songName" Text="{Binding Name_Song}" VerticalOptions="Center" FontSize="Large"  FontAttributes="Bold"/>
-                                <Label x:Name ="songName2" Text="{Binding Name_Artist}" VerticalOptions="Center" FontSize="Medium"  />
+                        <Frame
+                            BorderColor="#fca311"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="True"
+                            Padding="2"
+                            Margin="0,3,0,3"
+                            >
+                            <StackLayout Orientation="Horizontal" Padding="10,0,0,5">
+                                <StackLayout Spacing="2" HorizontalOptions="StartAndExpand" >
+                                    <Label x:Name ="songName" Text="{Binding Name_Song}" TextColor="#fca311" VerticalOptions="Center" FontSize="Large"  FontAttributes="Bold"/>
+                                    <Label x:Name ="songName2" Text="{Binding Name_Artist}" TextColor="#fca311" VerticalOptions="Center" FontSize="Medium"  />
+                                </StackLayout>
+                                <Button x:Name="deleteSong" BackgroundColor="Transparent" BorderColor="Transparent" HorizontalOptions="End" Clicked="deleteSong_Clicked"  ImageSource="delete.png"/>
                             </StackLayout>
-                            <Button x:Name="deleteSong" BackgroundColor="Transparent" BorderColor="Transparent" HorizontalOptions="End" Clicked="deleteSong_Clicked"  ImageSource="delete.png"/>
-                        </StackLayout>
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
