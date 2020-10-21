@@ -8,33 +8,33 @@
              mc:Ignorable="d"
              IconImageSource="menu.png"
              Padding="0,10,0,0"
-             BackgroundColor="#fca311"
+             BackgroundColor="#14213D"
              x:Class="TabulaturiRO.MasterPage"
              Title="TabulaturiRo">
     <StackLayout>
 
         <StackLayout Padding="10,0,10,0">
             <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
-                <Image Source="Guitars1.png" HeightRequest="50" WidthRequest="50" />
-                <Label Text="RoTabs"  FontSize="50" VerticalOptions="Center" HorizontalOptions="Center" Padding="10,0,0,0"/>
+                <Image Source="Guitars.png" HeightRequest="50" WidthRequest="50" />
+                <Label Text="RoTabs"  FontSize="50" VerticalOptions="Center" TextColor="#fca311" HorizontalOptions="Center" Padding="10,0,0,0"/>
             </StackLayout>
-            <BoxView HeightRequest="1" Color="Black"  />
+            <BoxView HeightRequest="1" Color="#fca311"  />
         </StackLayout>
 
         <ListView x:Name="listView1" x:FieldModifier="public" HasUnevenRows="True" ItemSelected="listView1_ItemSelected" SeparatorVisibility="None">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Start Page" IconSource="start.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:StartPage}" />
-                    <local:MasterPageItem Title="Artisti" IconSource="microphone.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:ArtistsList}" />
-                    <local:MasterPageItem Title="Melodii" IconSource="disc.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:songList}" />
-                    <local:MasterPageItem Title="Melodii Offline" IconSource="cassette.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:OfflineSongs}" />
+                    <local:MasterPageItem Title="Start Page" IconSource="arrowtriangle_right.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:StartPage}" />
+                    <local:MasterPageItem Title="Artists" IconSource="mic.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:ArtistsList}" />
+                    <local:MasterPageItem Title="Tracks" IconSource="album.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25"  TargetType="{x:Type local:songList}" />
+                    <local:MasterPageItem Title="Offline Songs" IconSource="floppy_disk.png" SizeImg="28" HorOptions="EndAndExpand" VertOptions="CenterAndExpand" Size="25" TargetType="{x:Type local:OfflineSongs}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Height="65">
                         <Frame
-                            BorderColor="#14213D"
+                            BorderColor="#fca311"
                             BackgroundColor="Transparent"
                             CornerRadius="10"
                             HasShadow="True"
@@ -45,7 +45,7 @@
 
                                 <Image Source="{Binding IconSource}" HeightRequest="{Binding SizeImg}" WidthRequest="{Binding SizeImg}"  />
 
-                                <Label Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="Center" TextColor="#14213D" HorizontalOptions="Center" Padding="10,0,0,0"/>
+                                <Label Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="Center" TextColor="#fca311" HorizontalOptions="Center" Padding="10,0,0,0"/>
                             </StackLayout>
                         </Frame>
                     </ViewCell>
@@ -53,7 +53,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <Frame
-           BackgroundColor="#fca311"
+           BackgroundColor="#14213D"
            Padding="10,10,10,150"
             HasShadow="True">
             <ic:CircleImage WidthRequest="100" HeightRequest="100" BorderColor="#fca311" Source="guitar.png" VerticalOptions="Center" />

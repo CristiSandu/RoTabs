@@ -56,6 +56,8 @@ namespace TabulaturiRO
                 {
                     noSongLabel.IsVisible = true;
                     backButton.IsVisible = true;
+                    artistisName.IsVisible = false;
+                    frameButon.IsVisible = true;
                 }
                 else
                     tracksListView.ItemsSource = _tracks;

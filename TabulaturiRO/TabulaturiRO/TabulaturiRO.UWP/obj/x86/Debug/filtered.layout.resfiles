@@ -29,6 +29,12 @@ Assets\Wide310x150Logo.scale-400.png
 App.xbf
 MainPage.xbf
 TabulaturiRO.UWP.xr.xml
+album.scale-100.png
+album.scale-200.png
+album.scale-400.png
+arrowtriangle_right.scale-100.png
+arrowtriangle_right.scale-200.png
+arrowtriangle_right.scale-400.png
 artists2.scale-100.png
 artists2.scale-200.png
 artists2.scale-400.png
@@ -44,6 +50,9 @@ delete1.scale-400.png
 disc.scale-100.png
 disc.scale-200.png
 disc.scale-400.png
+floppy_disk.scale-100.png
+floppy_disk.scale-200.png
+floppy_disk.scale-400.png
 guitar.scale-100.jpg
 guitar.scale-200.jpg
 guitar.scale-400.jpg
@@ -59,6 +68,9 @@ Guitars-1.scale-400.png
 Guitars-2.scale-100.png
 Guitars-2.scale-200.png
 Guitars-2.scale-400.png
+mic.scale-100.png
+mic.scale-200.png
+mic.scale-400.png
 microphone.scale-100.png
 microphone.scale-200.png
 microphone.scale-400.png

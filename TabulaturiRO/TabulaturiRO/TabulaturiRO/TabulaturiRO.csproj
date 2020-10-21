@@ -11,16 +11,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Img\album.svg" />
+    <None Remove="Img\arrowtriangle_right.svg" />
     <None Remove="Img\artists2.svg" />
     <None Remove="Img\cassette.svg" />
     <None Remove="Img\delete.svg" />
     <None Remove="Img\delete1.svg" />
     <None Remove="Img\disc.svg" />
+    <None Remove="Img\floppy_disk.svg" />
     <None Remove="Img\guitar.jpg" />
     <None Remove="Img\Guitars-1.svg" />
     <None Remove="Img\Guitars-2.svg" />
     <None Remove="Img\Guitars.png" />
     <None Remove="Img\Guitars1.png" />
+    <None Remove="Img\mic.svg" />
     <None Remove="Img\microphone.svg" />
     <None Remove="Img\offline.svg" />
     <None Remove="Img\profil.jpg" />
@@ -40,14 +44,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <SharedImage Include="Img\album.svg" BaseSize="48,48"/>
+    <SharedImage Include="Img\arrowtriangle_right.svg" BaseSize="48,48"/>
     <SharedImage Include="Img\cassette.svg" BaseSize="48,48" />
     <SharedImage Include="Img\delete.svg" BaseSize="35,35" />
     <SharedImage Include="Img\disc.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\floppy_disk.svg" BaseSize="48,48"/>
     <SharedImage Include="Img\guitar.jpg" BaseSize="50,50" />
     <SharedImage Include="Img\Guitars-1.svg" BaseSize="50,50" />
     <SharedImage Include="Img\Guitars-2.svg" BaseSize="50,50" />
     <SharedImage Include="Img\Guitars.png" BaseSize="50,50" />
     <SharedImage Include="Img\Guitars1.png" BaseSize="50,50" />
+    <SharedImage Include="Img\mic.svg" BaseSize="48,48"/>
     <SharedImage Include="Img\microphone.svg" BaseSize="48,48" />
     <SharedImage Include="Img\quaver.svg" BaseSize="48,48" />
     <SharedImage Include="Img\profil.jpg" BaseSize="48,48" />

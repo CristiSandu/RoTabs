@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+              <symbol id="hpIconSymbol" viewBox="0 0 24 24"><path xmlns="http://www.w3.org/2000/svg" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"/></symbol>
+
+              <g class="background">
+                <rect width="100%" height="100%" fill="none" rx="0%" ry="0%" x="0%" y="0%" stroke-width="0%" stroke="none"/>
+              </g>
+
+              <use xlink:href="#hpIconSymbol" xmlns:xlink="http://www.w3.org/1999/xlink" class="content" fill="rgb(252, 163, 17)" transform-origin="center" style="transform: scale(1) rotate(0deg);"/>
+            </svg>

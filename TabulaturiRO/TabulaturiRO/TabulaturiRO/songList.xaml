@@ -16,9 +16,20 @@
 
     <StackLayout>
         <Label x:Name="artistisName" IsVisible="false" TextColor="#fca311" HorizontalOptions="Start" FontSize="Large" FontAttributes="Bold" Padding="10,0,0,0"/>
-        <Label x:Name="noSongLabel" Text="No song added to this artist" IsVisible="false" HorizontalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold"/>
-        <Button x:Name="backButton" Text="Back" IsVisible="False" Clicked="backButton_Clicked" HorizontalOptions="Center"/>
-
+        <Label x:Name="noSongLabel" Text="No songs have been added to this artist" 
+               Padding="5,20,5,20"
+               TextColor="#fca311" 
+               IsVisible="false" 
+               HorizontalOptions="CenterAndExpand" 
+               FontSize="Large" 
+               FontAttributes="Bold"/>
+        <Frame x:Name="frameButon" Padding="10,10,10,10"
+               BackgroundColor="Transparent"
+               BorderColor="#fca311"
+               HorizontalOptions="Center"
+               CornerRadius="25" IsVisible="false">
+        <Button x:Name="backButton" Text="Back" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Transparent" BorderColor="#fca311" TextColor="#fca311" IsVisible="False" Clicked="backButton_Clicked" HorizontalOptions="Center"/>
+        </Frame>
         <ListView x:Name="tracksListView" ItemSelected="tracksListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None">
             <ListView.ItemTemplate>
                 <DataTemplate>

@@ -40,7 +40,7 @@ namespace TabulaturiRO
             {
                 content = await response.Content.ReadAsStringAsync();
             }
-            await DisplayAlert("ok", content, "ok");
+            await DisplayAlert("Offline Song", "Song added successfully", "Ok");
             // await Navigation.PushAsync(new OfflineTrackPage(content));
             SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocationOfflineSongs);
             conn.CreateTable<OfflineSong>();
