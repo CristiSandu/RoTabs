@@ -21,6 +21,7 @@ namespace TabulaturiRO
             
         }
 
+
         protected override void OnAppearing()
         {
             base.OnAppearing();

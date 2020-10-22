@@ -76,6 +76,12 @@ namespace TabulaturiRO
             return tasks;
         }
 
+        public SQLiteConnection OpenConnection()
+        {
+            SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocation);
+            return conn;
+        }
+
 
     }
 }
