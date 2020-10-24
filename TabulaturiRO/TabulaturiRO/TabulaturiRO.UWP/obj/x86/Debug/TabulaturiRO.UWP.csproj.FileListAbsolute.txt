@@ -136,3 +136,6 @@ S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\o
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\mic.scale-100.png
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\mic.scale-200.png
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\mic.scale-400.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cloud_download_fill.scale-100.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cloud_download_fill.scale-200.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cloud_download_fill.scale-400.png

@@ -27,4 +27,6 @@ androidpackagenamingpolicy=lowercasecrc64
 _nugetassetstimestamp=637363107743255271
 typemapkind=strings-asm
 androidsupportedabis=armeabi-v7a
+x86
+x86_64
 arm64-v8a

@@ -17,11 +17,11 @@
                  android:WebView.DisplayZoomControls="False"
                  />
         <ScrollView>
-            <StackLayout Orientation="Horizontal" BackgroundColor="White" HeightRequest="48">
+            <StackLayout Orientation="Horizontal" BackgroundColor="#14213D" HeightRequest="38"  Padding="-5,0,0,0">
                 <Button x:Name="addToOfflineList" BackgroundColor="Transparent" BorderColor="Transparent" 
                         Clicked="addToOfflineList_Clicked" 
-                        ImageSource="offline.png" 
-                        HorizontalOptions="StartAndExpand" 
+                        ImageSource="cloud_download_fill.png" 
+                        HorizontalOptions="Start" 
                         VerticalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>

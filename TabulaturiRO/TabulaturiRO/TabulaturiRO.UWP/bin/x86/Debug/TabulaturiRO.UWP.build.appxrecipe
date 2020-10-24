@@ -118,6 +118,15 @@
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cassette.scale-400.png">
       <PackagePath>cassette.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cloud_download_fill.scale-100.png">
+      <PackagePath>cloud_download_fill.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cloud_download_fill.scale-200.png">
+      <PackagePath>cloud_download_fill.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\cloud_download_fill.scale-400.png">
+      <PackagePath>cloud_download_fill.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\delete.scale-100.png">
       <PackagePath>delete.scale-100.png</PackagePath>
     </AppxPackagedFile>
