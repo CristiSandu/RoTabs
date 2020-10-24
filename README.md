@@ -1,6 +1,5 @@
 # RoTabs 2.0 
 
-![Logo](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/Guitars.png)
 
 Cum deschideti aplicatia puteti observa o Master-Detail Page care contine paginile principale din aplicatie.  
 
@@ -13,3 +12,6 @@ Fiecare pagina are cate un search box special pentru continutul paginii inafara 
 
 ![Offline Songs](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/Theard%20row.jpg)  
 **Tabulaturile se pot descarca pentru a fi utilizate si offline.**
+
+![Logo](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/Guitars.png)
+
