@@ -2,10 +2,6 @@
 
 ![Logo](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/Guitars.png)
 
-**It's a rebuild to RoTabs 1.0**
-
-## Bun Venit !
-
 Cum deschideti aplicatia puteti observa o Master-Detail Page care contine paginile principale din aplicatie.  
 
 ![Star](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/First%20row.jpg)
