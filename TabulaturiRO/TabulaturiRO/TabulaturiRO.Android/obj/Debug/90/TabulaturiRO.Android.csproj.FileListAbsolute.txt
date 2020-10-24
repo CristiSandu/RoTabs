@@ -611,3 +611,8 @@ S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Andro
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-xhdpi\cloud_download_fill.png
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-xxhdpi\cloud_download_fill.png
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-xxxhdpi\cloud_download_fill.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-hdpi\arrow_back.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-mdpi\arrow_back.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-xhdpi\arrow_back.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-xxhdpi\arrow_back.png
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.Android\obj\Debug\90\resizetizer\drawable-xxxhdpi\arrow_back.png

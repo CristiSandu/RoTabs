@@ -70,5 +70,10 @@ namespace TabulaturiRO
             conn.Close();
             conn2.Close();
         }
+
+        private async void backButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }

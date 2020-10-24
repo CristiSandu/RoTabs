@@ -18,11 +18,18 @@
                  />
         <ScrollView>
             <StackLayout Orientation="Horizontal" BackgroundColor="#14213D" HeightRequest="38"  Padding="-5,0,0,0">
+                <Button x:Name="backButton" BackgroundColor="Transparent" BorderColor="Transparent" 
+                        Clicked="backButton_Clicked" 
+                        ImageSource="arrow_back.png" 
+                        HorizontalOptions="Start"  
+                        VerticalOptions="CenterAndExpand"/>
                 <Button x:Name="addToOfflineList" BackgroundColor="Transparent" BorderColor="Transparent" 
                         Clicked="addToOfflineList_Clicked" 
                         ImageSource="cloud_download_fill.png" 
-                        HorizontalOptions="Start" 
+                        HorizontalOptions="EndAndExpand" 
                         VerticalOptions="CenterAndExpand"/>
+                
+
             </StackLayout>
         </ScrollView>
     </StackLayout>

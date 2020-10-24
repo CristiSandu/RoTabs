@@ -13,6 +13,7 @@
   <ItemGroup>
     <None Remove="Img\album.svg" />
     <None Remove="Img\arrowtriangle_right.svg" />
+    <None Remove="Img\arrow_back.svg" />
     <None Remove="Img\artists2.svg" />
     <None Remove="Img\cassette.svg" />
     <None Remove="Img\cloud_download_fill.svg" />
@@ -47,8 +48,9 @@
   <ItemGroup>
     <SharedImage Include="Img\album.svg" BaseSize="48,48" />
     <SharedImage Include="Img\arrowtriangle_right.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\arrow_back.svg" BaseSize="28,28" />
     <SharedImage Include="Img\cassette.svg" BaseSize="48,48" />
-    <SharedImage Include="Img\cloud_download_fill.svg" BaseSize="28,28"/>
+    <SharedImage Include="Img\cloud_download_fill.svg" BaseSize="28,28" />
     <SharedImage Include="Img\delete.svg" BaseSize="35,35" />
     <SharedImage Include="Img\disc.svg" BaseSize="48,48" />
     <SharedImage Include="Img\floppy_disk.svg" BaseSize="48,48" />

@@ -1,5 +1,6 @@
 ﻿obj\Debug\90\resizetizer\drawable-hdpi\album.png
 obj\Debug\90\resizetizer\drawable-hdpi\arrowtriangle_right.png
+obj\Debug\90\resizetizer\drawable-hdpi\arrow_back.png
 obj\Debug\90\resizetizer\drawable-hdpi\artists2.png
 obj\Debug\90\resizetizer\drawable-hdpi\cassette.png
 obj\Debug\90\resizetizer\drawable-hdpi\cloud_download_fill.png
@@ -23,6 +24,7 @@ obj\Debug\90\resizetizer\drawable-hdpi\start.png
 obj\Debug\90\resizetizer\drawable-hdpi\test.png
 obj\Debug\90\resizetizer\drawable-mdpi\album.png
 obj\Debug\90\resizetizer\drawable-mdpi\arrowtriangle_right.png
+obj\Debug\90\resizetizer\drawable-mdpi\arrow_back.png
 obj\Debug\90\resizetizer\drawable-mdpi\artists2.png
 obj\Debug\90\resizetizer\drawable-mdpi\cassette.png
 obj\Debug\90\resizetizer\drawable-mdpi\cloud_download_fill.png
@@ -46,6 +48,7 @@ obj\Debug\90\resizetizer\drawable-mdpi\start.png
 obj\Debug\90\resizetizer\drawable-mdpi\test.png
 obj\Debug\90\resizetizer\drawable-xhdpi\album.png
 obj\Debug\90\resizetizer\drawable-xhdpi\arrowtriangle_right.png
+obj\Debug\90\resizetizer\drawable-xhdpi\arrow_back.png
 obj\Debug\90\resizetizer\drawable-xhdpi\artists2.png
 obj\Debug\90\resizetizer\drawable-xhdpi\cassette.png
 obj\Debug\90\resizetizer\drawable-xhdpi\cloud_download_fill.png
@@ -69,6 +72,7 @@ obj\Debug\90\resizetizer\drawable-xhdpi\start.png
 obj\Debug\90\resizetizer\drawable-xhdpi\test.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\album.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\arrowtriangle_right.png
+obj\Debug\90\resizetizer\drawable-xxhdpi\arrow_back.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\artists2.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\cassette.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\cloud_download_fill.png
@@ -92,6 +96,7 @@ obj\Debug\90\resizetizer\drawable-xxhdpi\start.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\test.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\album.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\arrowtriangle_right.png
+obj\Debug\90\resizetizer\drawable-xxxhdpi\arrow_back.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\artists2.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\cassette.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\cloud_download_fill.png

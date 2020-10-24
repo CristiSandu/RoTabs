@@ -11,7 +11,7 @@
     <NavigationPage.TitleView >
 
         <StackLayout Orientation="Horizontal">
-            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search ..." TextChanged="searchBarGlobaly_TextChanged"  IsVisible="true" HorizontalOptions="Start"/>
+            <SearchBar x:Name="searchBarGlobaly" Placeholder="Search ..." TextChanged="searchBarGlobaly_TextChanged"   IsVisible="true" HorizontalOptions="Start"/>
         </StackLayout>
 
     </NavigationPage.TitleView>
