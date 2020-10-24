@@ -1,4 +1,4 @@
-# RoTabs 2.0
+# RoTabs 2.0 ![Logo](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/Guitars.png)
 
 **It's a rebuild to RoTabs 1.0**
 
