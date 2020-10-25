@@ -15,12 +15,15 @@ namespace TabulaturiRO
         {
             InitializeComponent();
 
+            Xamarin.Essentials.VersionTracking.Track();
+
             MainPage = new MainPage();
         }
 
         public App(string dbName)
         {
             InitializeComponent();
+            Xamarin.Essentials.VersionTracking.Track();
 
             MainPage = new MainPage();
             DataBaseLocation = dbName;
@@ -30,6 +33,7 @@ namespace TabulaturiRO
         public App(string dbName, string dbName2)
         {
             InitializeComponent();
+            Xamarin.Essentials.VersionTracking.Track();
 
             MainPage = new MainPage();
             DataBaseLocation = dbName;
