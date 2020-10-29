@@ -44,7 +44,7 @@
             <StackLayout x:Name="principalStack"
                      Padding="10,10,10,10"
                      Spacing="20">
-                <Label Text="Welcome back ! " TextColor="#fca311" HorizontalOptions="Center"  FontSize="Title" FontAttributes="Bold"/>
+                <Label x:Name="welcome_mesage" Text="Welcome back ! " TextColor="#fca311" HorizontalOptions="Center"  FontSize="Title" FontAttributes="Bold"/>
                 <ic:CircleImage WidthRequest="100" HeightRequest="100" Source="guitar.png" BorderColor="#fca311"   VerticalOptions="End" />
                 <Frame
                             BorderColor="#fca311"
@@ -54,7 +54,7 @@
                             Padding="2"
                             Margin="0,5,0,5"
                             >
-                    <Label x:Name="description" TextColor="#fca311" Padding="10,10,10,10"/>
+                    <Label x:Name="description" FontSize="Medium" FontAttributes="Bold" TextColor="#fca311" Padding="10,10,10,10"/>
                 </Frame>
                 <Frame
                             BorderColor="#fca311"

@@ -4,9 +4,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -24,10 +25,16 @@ namespace TabulaturiRO
         public StartPage()
         {
             InitializeComponent();
-            description.Text = "Bun venit in RoTabs. Aplicatia viitorului in The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards.The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards.The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards. materie de tabulaturi romanesti";
+            description.Text = "Warning ! Aceasta aplicatie a fost facuta in scop educativ si nu este permisa incarcarea sau distribuirea acesteia cu alt scop decat acesta.";
             description1.Text = "Bun venit in RoTabs. Aplicatia viitorului in The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards.The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards.The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards. materie de tabulaturi romanesti";
             description2.Text = "Bun venit in RoTabs. Aplicatia viitorului in The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards.The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards.The Frame class inherits from ContentView, which means it can contain any type of View object including Layout objects. This ability allows the Frame to be used to create complex UI objects such as cards. materie de tabulaturi romanesti";
-           
+            var firstLaunch = VersionTracking.IsFirstLaunchEver;
+
+            if (firstLaunch == true)
+            {
+                welcome_mesage.Text = "Welcome to RoTabs!";
+            }
+
         }
 
         protected override void OnAppearing()
