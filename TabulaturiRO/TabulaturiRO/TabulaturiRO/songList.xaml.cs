@@ -39,13 +39,10 @@ namespace TabulaturiRO
             //conn.CreateTable<Track>();
             var tracks = conn.Table<Track>();
 
-            
-           
-
+    
             if (_art == null)
             {
                 _tracks = tracks.ToList();
-                
             }
             else
             {
@@ -61,8 +58,6 @@ namespace TabulaturiRO
                 }
                 else
                     tracksListView.ItemsSource = _tracks;
-
-               
             }
 
             searchBarTracks.IsVisible = true;

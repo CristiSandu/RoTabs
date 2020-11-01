@@ -7,6 +7,7 @@
              xmlns:windows="clr-namespace:Xamarin.Forms.PlatformConfiguration.WindowsSpecific;assembly=Xamarin.Forms.Core"        
              xmlns:local="clr-namespace:TabulaturiRO"
              mc:Ignorable="d"
+                  NavigationPage.HasNavigationBar="False"
             
              x:Class="TabulaturiRO.MainPage">
 

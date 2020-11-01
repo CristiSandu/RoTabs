@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security;
+using TabulaturiRO.Tutorial;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -35,7 +37,19 @@ namespace TabulaturiRO
             InitializeComponent();
             Xamarin.Essentials.VersionTracking.Track();
 
-            MainPage = new MainPage();
+
+            CarouselPage startTutorial = new CarouselPage();
+            startTutorial.Children.Add(new StartTutorial(0));
+            startTutorial.Children.Add(new StartTutorial(1));
+            startTutorial.Children.Add(new StartTutorial(2));
+
+
+            NavigationPage nav = new NavigationPage(startTutorial);
+            MainPage = nav;
+                
+            //  new MainPage();
+
+
             DataBaseLocation = dbName;
             DataBaseLocationOfflineSongs = dbName2;
         }

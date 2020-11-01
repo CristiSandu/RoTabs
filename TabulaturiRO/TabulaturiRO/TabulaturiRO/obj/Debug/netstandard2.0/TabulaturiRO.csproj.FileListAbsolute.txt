@@ -20,4 +20,5 @@ S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\D
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\TabulaturiRO.dll
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\ref\TabulaturiRO.dll
 S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\TabulaturiRO.pdb
-S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\TabulaturiRO.csprojAssemblyReference.cache
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\Tutorial\StartTutorial.xaml.g.cs
+S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO\obj\Debug\netstandard2.0\Tutorial\CarouselTut.xaml.g.cs
