@@ -7,6 +7,7 @@ obj\Debug\90\resizetizer\drawable-hdpi\floppy_disk.png
 obj\Debug\90\resizetizer\drawable-hdpi\guitar.jpg
 obj\Debug\90\resizetizer\drawable-hdpi\Guitars.png
 obj\Debug\90\resizetizer\drawable-hdpi\mic.png
+obj\Debug\90\resizetizer\drawable-hdpi\navigate_next.png
 obj\Debug\90\resizetizer\drawable-mdpi\album.png
 obj\Debug\90\resizetizer\drawable-mdpi\arrowtriangle_right.png
 obj\Debug\90\resizetizer\drawable-mdpi\arrow_back.png
@@ -16,6 +17,7 @@ obj\Debug\90\resizetizer\drawable-mdpi\floppy_disk.png
 obj\Debug\90\resizetizer\drawable-mdpi\guitar.jpg
 obj\Debug\90\resizetizer\drawable-mdpi\Guitars.png
 obj\Debug\90\resizetizer\drawable-mdpi\mic.png
+obj\Debug\90\resizetizer\drawable-mdpi\navigate_next.png
 obj\Debug\90\resizetizer\drawable-xhdpi\album.png
 obj\Debug\90\resizetizer\drawable-xhdpi\arrowtriangle_right.png
 obj\Debug\90\resizetizer\drawable-xhdpi\arrow_back.png
@@ -25,6 +27,7 @@ obj\Debug\90\resizetizer\drawable-xhdpi\floppy_disk.png
 obj\Debug\90\resizetizer\drawable-xhdpi\guitar.jpg
 obj\Debug\90\resizetizer\drawable-xhdpi\Guitars.png
 obj\Debug\90\resizetizer\drawable-xhdpi\mic.png
+obj\Debug\90\resizetizer\drawable-xhdpi\navigate_next.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\album.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\arrowtriangle_right.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\arrow_back.png
@@ -34,6 +37,7 @@ obj\Debug\90\resizetizer\drawable-xxhdpi\floppy_disk.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\guitar.jpg
 obj\Debug\90\resizetizer\drawable-xxhdpi\Guitars.png
 obj\Debug\90\resizetizer\drawable-xxhdpi\mic.png
+obj\Debug\90\resizetizer\drawable-xxhdpi\navigate_next.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\album.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\arrowtriangle_right.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\arrow_back.png
@@ -43,3 +47,4 @@ obj\Debug\90\resizetizer\drawable-xxxhdpi\floppy_disk.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\guitar.jpg
 obj\Debug\90\resizetizer\drawable-xxxhdpi\Guitars.png
 obj\Debug\90\resizetizer\drawable-xxxhdpi\mic.png
+obj\Debug\90\resizetizer\drawable-xxxhdpi\navigate_next.png

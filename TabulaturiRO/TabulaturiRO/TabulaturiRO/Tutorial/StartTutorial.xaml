@@ -2,18 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabulaturiRO.Tutorial.StartTutorial"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#14213D">
 
     <StackLayout>
         <Label x:Name="MainText" 
+               TextColor="#fca311"
+               FontSize="Medium"
+               FontAttributes="Bold"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"/>
-     
-
-
-
-        <Button x:Name="start" Clicked="start_Clicked" />
+        <StackLayout Orientation="Horizontal">
+            <Label HorizontalOptions="StartAndExpand"/>
+            <Button x:Name="start" Clicked="start_Clicked" BackgroundColor="Transparent" ImageSource="navigate_next" HorizontalOptions="End" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
     </StackLayout>
-    
-    
+
+
 </ContentPage>

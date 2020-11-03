@@ -18,17 +18,22 @@ namespace TabulaturiRO.Tutorial
             InitializeComponent();
             _index = index;
 
-            if (_index != 2)
+            if (_index == 0)
+                MainText.Text = " RoTabs \n Bun venit la RoTabs Prima aplicatie de tabulaturi Romanesti \n \n Take a Toure!!";
+            else
             {
-                start.IsVisible = false;
-            }
+                MainText.Text = "test" + _index;
 
-            MainText.Text = "This is a test " + _index;
+            }
         }
 
         private async void start_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainPage()); 
+            if (_index == 2)
+                await Navigation.PushModalAsync(new MainPage());
+            else
+                await Navigation.PushModalAsync(new StartTutorial(_index + 1));
+
         }
     }
 }

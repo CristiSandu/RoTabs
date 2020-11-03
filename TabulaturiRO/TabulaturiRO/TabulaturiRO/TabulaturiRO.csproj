@@ -20,6 +20,7 @@
     <None Remove="Img\guitar.jpg" />
     <None Remove="Img\Guitars.png" />
     <None Remove="Img\mic.svg" />
+    <None Remove="Img\navigate_next.svg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +41,7 @@
     <SharedImage Include="Img\guitar.jpg" BaseSize="50,50" />
     <SharedImage Include="Img\Guitars.png" BaseSize="50,50" />
     <SharedImage Include="Img\mic.svg" BaseSize="48,48" />
+    <SharedImage Include="Img\navigate_next.svg" BaseSize="48,48" />
   </ItemGroup>
 
   <ItemGroup>

@@ -35,12 +35,17 @@ namespace TabulaturiRO
             HttpClient client = new HttpClient();
             string URL = _track.Link_Track;
             string content ="";
-            HttpResponseMessage response = await client.GetAsync(URL);
-            if (response.IsSuccessStatusCode)
+            try
             {
-                content = await response.Content.ReadAsStringAsync();
+                HttpResponseMessage response = await client.GetAsync(URL);
+                if (response.IsSuccessStatusCode)
+                {
+                    content = await response.Content.ReadAsStringAsync();
+                }
+            }catch(Exception ex)
+            {
+                await DisplayAlert("Error!", "Lipsa conexiune internet", "Ok");
             }
-            await DisplayAlert("Offline Song", "Song added successfully", "Ok");
             // await Navigation.PushAsync(new OfflineTrackPage(content));
             SQLiteConnection conn = new SQLiteConnection(App.DataBaseLocationOfflineSongs);
             conn.CreateTable<OfflineSong>();
@@ -65,7 +70,8 @@ namespace TabulaturiRO
                     await DisplayAlert("Alerta!", "Melodia exista deja in lista", "ok");
                 }
                     
-                
+                await DisplayAlert("Offline Song", "Song added successfully", "Ok");
+
             }
             conn.Close();
             conn2.Close();
