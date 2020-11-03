@@ -6,12 +6,20 @@
              BackgroundColor="#14213D">
 
     <StackLayout>
+        <Label x:Name="titleFirstPage" HorizontalOptions="CenterAndExpand"
+               Text="RoTabs"
+               VerticalOptions="EndAndExpand"
+               TextColor="#fca311"
+               FontSize="Large"
+               FontAttributes="Bold"
+               />
         <Label x:Name="MainText" 
                TextColor="#fca311"
                FontSize="Medium"
                FontAttributes="Bold"
-               HorizontalOptions="CenterAndExpand"
-               VerticalOptions="CenterAndExpand"/>
+               HorizontalOptions="Start"
+               VerticalOptions="CenterAndExpand"
+               Padding="10,0,0,10"/>
         <StackLayout Orientation="Horizontal">
             <Label HorizontalOptions="StartAndExpand"/>
             <Button x:Name="start" Clicked="start_Clicked" BackgroundColor="Transparent" ImageSource="navigate_next" HorizontalOptions="End" VerticalOptions="CenterAndExpand" />

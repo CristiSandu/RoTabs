@@ -19,7 +19,7 @@ namespace TabulaturiRO.Tutorial
             _index = index;
 
             if (_index == 0)
-                MainText.Text = " RoTabs \n Bun venit la RoTabs Prima aplicatie de tabulaturi Romanesti \n \n Take a Toure!!";
+                MainText.Text = " Bun venit la RoTabs Prima aplicatie de tabulaturi Romanesti \n \n Take a Toure!!";
             else
             {
                 MainText.Text = "test" + _index;

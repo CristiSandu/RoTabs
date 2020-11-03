@@ -154,6 +154,15 @@
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\mic.scale-400.png">
       <PackagePath>mic.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\navigate_next.scale-100.png">
+      <PackagePath>navigate_next.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\navigate_next.scale-200.png">
+      <PackagePath>navigate_next.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\obj\x86\Debug\resizetizer\Assets\navigate_next.scale-400.png">
+      <PackagePath>navigate_next.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Cristi\App-Xamarin\Tabulaturi_ro\TabulaturiRO\TabulaturiRO\TabulaturiRO.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
