@@ -12,7 +12,7 @@
 
 
     <StackLayout>
-        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None" >
+        <ListView x:Name="artistListView" ItemSelected="artistListView_ItemSelected" HasUnevenRows="True" SeparatorVisibility="None" IsPullToRefreshEnabled="True" Refreshing="artistListView_Refreshing" >
             <ListView.ItemTemplate>
                 <DataTemplate >
                     <ViewCell Height="65">

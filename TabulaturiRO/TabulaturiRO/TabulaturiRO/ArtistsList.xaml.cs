@@ -67,6 +67,11 @@ namespace TabulaturiRO
             return new string(chars).Normalize(NormalizationForm.FormC);
         }
 
+        private void artistListView_Refreshing(object sender, EventArgs e)
+        {
+            artistListView.ItemsSource = editeartist.createList();
+            artistListView.EndRefresh();
+        }
     }
 
 }

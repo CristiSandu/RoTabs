@@ -22,7 +22,11 @@
                Padding="10,0,0,10"/>
         <StackLayout Orientation="Horizontal">
             <Label HorizontalOptions="StartAndExpand"/>
-            <Button x:Name="start" Clicked="start_Clicked" BackgroundColor="Transparent" ImageSource="navigate_next" HorizontalOptions="End" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="start" Clicked="start_Clicked" 
+                    BackgroundColor="Transparent" 
+                    ImageSource="navigate_next" 
+                    HorizontalOptions="End" 
+                    VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </StackLayout>
 

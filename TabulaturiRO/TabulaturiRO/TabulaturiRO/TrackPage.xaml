@@ -14,7 +14,7 @@
                  HeightRequest="1000" 
                  Source="{Binding Link_Track}" 
                  android:WebView.EnableZoomControls="true"
-                 android:WebView.DisplayZoomControls="False"
+                 android:WebView.DisplayZoomControls="False"                
                  />
         <ScrollView>
             <StackLayout Orientation="Horizontal" BackgroundColor="#14213D" HeightRequest="38"  Padding="-5,0,0,0">
