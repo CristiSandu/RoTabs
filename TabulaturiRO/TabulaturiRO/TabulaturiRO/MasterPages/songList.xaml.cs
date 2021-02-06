@@ -26,7 +26,8 @@ namespace TabulaturiRO
         {
             InitializeComponent();
             _art = art;
-            artistisName.Text = art.Name;
+            artistisName.Text = _art.Name;
+
             artistisName.IsVisible = true;
            
             
@@ -39,7 +40,6 @@ namespace TabulaturiRO
             //conn.CreateTable<Track>();
             var tracks = conn.Table<Track>();
 
-    
             if (_art == null)
             {
                 _tracks = tracks.ToList();
@@ -61,6 +61,7 @@ namespace TabulaturiRO
             }
 
             searchBarTracks.IsVisible = true;
+            searchBarTracks.Placeholder = $"Search in {_tracks.Count} songs";
             searchBarTracks.Text = "";
             conn.Close();
         }

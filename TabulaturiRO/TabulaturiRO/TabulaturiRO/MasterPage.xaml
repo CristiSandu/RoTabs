@@ -11,9 +11,9 @@
              BackgroundColor="#14213D"
              x:Class="TabulaturiRO.MasterPage"
              Title="TabulaturiRo">
-    <StackLayout>
+    <StackLayout Spacing="1">
 
-        <StackLayout Padding="10,0,10,0">
+        <StackLayout Padding="10,0,10,0" >
             <StackLayout Orientation="Horizontal" Padding="10,0,0,0">
                 <Image Source="Guitars.png" HeightRequest="50" WidthRequest="50" />
                 <Label Text="RoTabs"  FontSize="50" VerticalOptions="Center" TextColor="#fca311" HorizontalOptions="Center" Padding="10,0,0,0"/>
@@ -42,9 +42,7 @@
                             Margin="5,3,5,3"
                             >
                             <StackLayout Orientation="Horizontal" Padding="10,0,0,0" >
-
                                 <Image Source="{Binding IconSource}" HeightRequest="{Binding SizeImg}" WidthRequest="{Binding SizeImg}"  />
-
                                 <Label Text="{Binding Title}" FontSize="{Binding Size}" VerticalOptions="Center" TextColor="#fca311" HorizontalOptions="Center" Padding="10,0,0,0"/>
                             </StackLayout>
                         </Frame>
@@ -52,12 +50,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Frame
-           BackgroundColor="#14213D"
-           Padding="10,10,10,150"
-            HasShadow="True">
-            <ic:CircleImage WidthRequest="100" HeightRequest="100" BorderColor="#fca311" Source="guitar.png" VerticalOptions="Center" />
-        </Frame>
+        
+        <ic:CircleImage WidthRequest="100" HeightRequest="100" BorderColor="#fca311" Source="guitar.png" />
 
     </StackLayout>
 </ContentPage>

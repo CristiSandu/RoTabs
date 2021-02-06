@@ -25,7 +25,9 @@ namespace TabulaturiRO
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            artistListView.ItemsSource = editeartist.createList();
+            var listArtists = editeartist.createList();
+            artistListView.ItemsSource = listArtists;
+            searchBarArtists.Placeholder = $"Search in {listArtists.Count} artists";
             searchBarArtists.Text = "";
         }
 

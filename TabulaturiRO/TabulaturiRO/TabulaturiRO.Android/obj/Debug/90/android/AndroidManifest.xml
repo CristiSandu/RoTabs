@@ -4,7 +4,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="RoTabs" android:icon="@drawable/guitars" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="RoTabs" android:icon="@drawable/guitars" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/guitars" android:label="TabulaturiRO" android:theme="@style/MainTheme" android:name="crc64291aead3c0b1b9ba.MainActivity" />
     <activity android:label="SplashActivity" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="crc64291aead3c0b1b9ba.SplashActivity">
       <intent-filter>

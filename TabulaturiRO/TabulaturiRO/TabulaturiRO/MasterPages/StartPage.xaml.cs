@@ -50,6 +50,8 @@ namespace TabulaturiRO
             _artists = conn.Table<Artists>().ToList();
             _songs = conn.Table<Track>().ToList();
             _globalS = makeLista(_artists, _songs);
+            searchBarGlobaly.Placeholder = $"Search in {_globalS.Count} elements";
+
             allListView.ItemsSource = _globalS;
             allListView.IsVisible = false;
             conn.Close();

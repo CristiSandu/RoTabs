@@ -45,28 +45,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AddPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="ArtistsList.xaml">
+    <EmbeddedResource Update="MasterPages\ArtistsList.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MasterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="OfflineSongs.xaml">
+    <EmbeddedResource Update="MasterPages\OfflineSongs.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="OfflineTrackPage.xaml">
+    <EmbeddedResource Update="TrackPages\OfflineTrackPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="songList.xaml">
+    <EmbeddedResource Update="MasterPages\songList.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StartPage.xaml">
+    <EmbeddedResource Update="MasterPages\StartPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TrackPage.xaml">
+    <EmbeddedResource Update="TrackPages\TrackPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Tutorial\CarouselTut.xaml">
