@@ -14,4 +14,6 @@ Fiecare pagina are cate un search box special pentru continutul paginii inafara 
 **Tabulaturile se pot descarca pentru a fi utilizate si offline.**
 
 ![Logo](https://github.com/cristysandu/TabulaturiRo/blob/master/Images/Guitars.png)
+## Warning!    
+Aceasta aplicatie a fost facuta in **scop educativ** si **nu este permisa incarcarea sau distribuirea acesteia** cu alt scop decat acesta.
 
