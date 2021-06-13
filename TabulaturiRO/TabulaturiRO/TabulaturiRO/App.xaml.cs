@@ -37,18 +37,10 @@ namespace TabulaturiRO
             InitializeComponent();
             Xamarin.Essentials.VersionTracking.Track();
 
-
-          /*  CarouselPage startTutorial = new CarouselPage();
-            startTutorial.Children.Add(new StartTutorial(0));
-            startTutorial.Children.Add(new StartTutorial(1));
-            startTutorial.Children.Add(new StartTutorial(2));
-
-            */
             NavigationPage nav = new NavigationPage( new StartTutorial(0));
             MainPage = nav;
                 
-            //  new MainPage();
-
+     
 
             DataBaseLocation = dbName;
             DataBaseLocationOfflineSongs = dbName2;
