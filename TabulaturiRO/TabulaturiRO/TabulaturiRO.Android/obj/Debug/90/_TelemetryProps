@@ -1,5 +1,5 @@
 IsIncrementalBuild=false
-AndroidUseAapt2=True
+AndroidUseAapt2=
 UseSharedRuntime=false
 UseFastDeployment=false
 EnableMultidex=False
