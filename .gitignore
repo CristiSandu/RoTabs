@@ -3,6 +3,7 @@
 
 # Visual Studio (>=2015) project-specific, machine local files
 TabulaturiRO/.vs/
+DBScript/bs4/
 
 # User-specific files
 *.suo
